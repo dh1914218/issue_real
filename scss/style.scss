@@ -1,3 +1,5 @@
+@import "partial/styles";
+
 /*------레이아웃-----*/
 .container {
   margin: 0 auto;
@@ -6,27 +8,37 @@
 
 /*---------------헤더----------------*/
 .header {
+  box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+
   height: 80px;
   overflow: hidden;
-  line-height: 40px;
   .header__logo {
     float: left;
     margin-left: 100px;
+    line-height: 80px;
+
     a {
     }
   }
   .header__nav {
     float: right;
-    margin-right: 85px;
+    margin-right: 84px;
     ul {
       li {
         float: left;
         a {
           display: inline-block;
-          padding: 10px 15px;
+          padding: 27px 15px;
           &:hover {
             color: $purple;
+            font-weight: 500;
           }
+        }
+      }
+      .header__nav--login {
+        margin-left: 30px;
+        a {
+          margin-left: 100px;
         }
       }
     }

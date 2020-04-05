@@ -7,19 +7,21 @@
 
 /*---------------헤더----------------*/
 .header {
+  -webkit-box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+          box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
   height: 80px;
   overflow: hidden;
-  line-height: 40px;
 }
 
 .header .header__logo {
   float: left;
   margin-left: 100px;
+  line-height: 80px;
 }
 
 .header .header__nav {
   float: right;
-  margin-right: 85px;
+  margin-right: 84px;
 }
 
 .header .header__nav ul li {
@@ -28,6 +30,19 @@
 
 .header .header__nav ul li a {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 27px 15px;
+}
+
+.header .header__nav ul li a:hover {
+  color: #6332f6;
+  font-weight: 500;
+}
+
+.header .header__nav ul .header__nav--login {
+  margin-left: 30px;
+}
+
+.header .header__nav ul .header__nav--login a {
+  margin-left: 100px;
 }
 /*# sourceMappingURL=style.css.map */
