@@ -1,0 +1,32 @@
+.moeny-tip__list ul li {
+  width: 280px;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.moeny-tip__list ul li a .img img {
+  width: 280px;
+}
+
+.moeny-tip__list ul li a .desc {
+  margin-top: 10px;
+}
+
+.moeny-tip__list ul li a .desc .tit {
+  font-size: 18px;
+}
+
+.moeny-tip__list ul li a .desc .author {
+  margin-top: 15px;
+  color: #9b9b9b;
+}
+
+.moeny-tip__list ul li a:hover .tit {
+  color: #6332f6;
+}
+
+.moeny-tip__list li:nth-of-type(4n) {
+  margin-right: 0;
+}
+/*# sourceMappingURL=moeny-tip.css.map */

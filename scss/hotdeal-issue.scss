@@ -1,0 +1,92 @@
+@import "partial/styles";
+
+.hotdeal-issue__list {
+  ul {
+    li {
+      float: left;
+      width: 220px;
+      margin-right: 20px;
+      background-color: #ffffff;
+      padding: 10px;
+      margin-bottom: 20px;
+      a {
+        .img {
+          padding: 30px;
+          img {
+          }
+        }
+        .desc {
+          .tit {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+
+            height: 42px;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            color: #424242;
+            font-size: 14px;
+            font-family: s-core-dream-regular;
+          }
+          .price {
+            margin-top: 20px;
+            color: #111111;
+            font-size: 20px;
+          }
+          .fee {
+            margin-top: 5px;
+            color: #9b9b9b;
+            font-size: 13px;
+          }
+          .icon {
+            margin-top: 5px;
+            font-size: 10px;
+            color: #ffffff;
+            overflow: hidden;
+            .icon__site {
+              padding: 3px 5px;
+              background-color: $purple;
+              float: left;
+              margin-right: 5px;
+              display: inline-block;
+            }
+            .icon__cum {
+              padding: 3px 5px;
+              background-color: #d2d6d9;
+              float: left;
+              display: inline-block;
+            }
+          }
+
+          .btn {
+            float: right;
+            margin-top: 10px;
+
+            .share {
+              img {
+                width: 20px;
+              }
+            }
+            .like {
+              margin-left: 10px;
+              img {
+                width: 20px;
+              }
+            }
+          }
+        }
+        &:hover {
+          .tit {
+            color: $purple;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hotdeal-issue__list li:nth-of-type(5n + 0) {
+  margin-right: 0;
+}

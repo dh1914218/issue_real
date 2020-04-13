@@ -1,0 +1,62 @@
+@import "partial/styles";
+
+article.trand-issue__article {
+  margin-bottom: 10px;
+  a {
+    .trand-issue__tag-name {
+      font-size: 25px;
+      color: #111111;
+    }
+    .trand-issue__banner {
+      margin-top: 10px;
+      height: 150px;
+      width: 730px;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background: url(/img/banner-index.jpg);
+
+      .banner__black-cover {
+        background-color: #000000;
+        opacity: 0.6;
+        width: 730px;
+        height: 150px;
+      }
+      .desc {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #ffffff;
+        font-weight: 300;
+
+        .tit {
+          font-size: 25px;
+        }
+        .sub-tit {
+          margin-top: 10px;
+          font-size: 16px;
+          em {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .trand-issue__tag-name {
+        color: $purple;
+      }
+    }
+    .trand-issue_border {
+      margin-top: 10px;
+      height: 1px;
+      width: 100%;
+      background-color: #e8e8ed;
+    }
+  }
+}
+
+article.trand-issue__article:nth-last-of-type(1) {
+  margin-bottom: 0;
+}

@@ -1,0 +1,63 @@
+article.trand-issue__article {
+  margin-bottom: 10px;
+}
+
+article.trand-issue__article a .trand-issue__tag-name {
+  font-size: 25px;
+  color: #111111;
+}
+
+article.trand-issue__article a .trand-issue__banner {
+  margin-top: 10px;
+  height: 150px;
+  width: 730px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url(/img/banner-index.jpg);
+}
+
+article.trand-issue__article a .trand-issue__banner .banner__black-cover {
+  background-color: #000000;
+  opacity: 0.6;
+  width: 730px;
+  height: 150px;
+}
+
+article.trand-issue__article a .trand-issue__banner .desc {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+article.trand-issue__article a .trand-issue__banner .desc .tit {
+  font-size: 25px;
+}
+
+article.trand-issue__article a .trand-issue__banner .desc .sub-tit {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+article.trand-issue__article a .trand-issue__banner .desc .sub-tit em {
+  font-weight: 500;
+}
+
+article.trand-issue__article a:hover .trand-issue__tag-name {
+  color: #6332f6;
+}
+
+article.trand-issue__article a .trand-issue_border {
+  margin-top: 10px;
+  height: 1px;
+  width: 100%;
+  background-color: #e8e8ed;
+}
+
+article.trand-issue__article:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=trand-issue.css.map */
