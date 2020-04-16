@@ -1,0 +1,21 @@
+@import "partial/styles";
+
+.footer {
+  background-color: #f6f9ff;
+  padding: 40px;
+  margin-top: 50px;
+  .inner {
+    div {
+    }
+    ul {
+      li {
+        float: left;
+        a {
+          display: inline-block;
+          padding-right: 30px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}

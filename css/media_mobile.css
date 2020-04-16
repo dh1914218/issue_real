@@ -1,0 +1,304 @@
+@charset "UTF-8";
+@media (max-width: 480px) {
+  /*---------레이아웃---------*/
+  .container {
+    width: 100% !important;
+  }
+  .m_border {
+    background-color: #e8e8ed;
+    height: 10px;
+  }
+  .row {
+    padding: 0px 15px;
+  }
+  /*-------aside--------*/
+  .aside-test__728x90,
+  .aside__728x90 {
+    display: none;
+  }
+  .aside-test__320x100,
+  .aside__320x100 {
+    display: block;
+  }
+  /*---------------헤더-------------*/
+  .header {
+    width: 100% !important;
+    height: 58px;
+    position: relative;
+  }
+  .header .m-nav__btn {
+    display: block;
+    display: inline-block;
+  }
+  .header .m-nav__btn button {
+    padding: 18px 0px 10px 0px;
+  }
+  .header .m-nav__btn button img {
+    width: 24px;
+    height: 24px;
+  }
+  .header nav {
+    display: none;
+  }
+  .header .header__logo {
+    position: absolute;
+    float: none;
+    margin-left: 0;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  /*--------------네비게이션드로어--------------*/
+  .m-nav .m-nav__inner {
+    display: block;
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 30;
+  }
+  .m-nav .m-nav__inner .m-nav__login {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .m-nav .m-nav__inner .m-nav__login button {
+    color: #ffffff;
+    height: 56px;
+    border-radius: 30px;
+    width: 80%;
+    background-color: #6332f6;
+  }
+  .m-nav .m-nav__inner .m-nav__menu {
+    border-top: 1px solid #e8e8ed;
+    padding: 15px;
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  .m-nav .m-nav__inner .m-nav__menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  /*-----------푸터---------------*/
+  .footer {
+    background-color: #f6f9ff;
+    margin-top: 20px !important;
+    padding: 20px 0 !important;
+  }
+  .footer .inner ul li {
+    float: left;
+  }
+  .footer .inner ul li a {
+    display: inline-block;
+    padding: 0;
+  }
+  /*--------------인덱스--------------*/
+  .add-btn__index {
+    margin-bottom: 30px;
+    margin-top: 20px !important;
+  }
+  .add-btn__index button {
+    width: 80%;
+  }
+  .banner-index {
+    height: 200px;
+    display: none;
+  }
+  .banner-index .banner-index__black-cover {
+    height: 200px !important;
+  }
+  .banner-index .desc {
+    font-size: 20px;
+  }
+  .trand-issue__index {
+    margin-top: 30px;
+  }
+  .moeny-tip__index {
+    margin-top: 30px;
+  }
+  .moeny-tip__index h1 {
+    font-size: 20px !important;
+    margin-bottom: 20px;
+  }
+  .container-2 {
+    width: 100% !important;
+  }
+  .container-2 h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .container-2 article .trand-issue__banner {
+    width: 100% !important;
+  }
+  .container-2 article .trand-issue__banner .banner__black-cover {
+    width: 100% !important;
+  }
+  .container-2 article .trand-issue__banner .desc .tit {
+    font-size: 20px !important;
+  }
+  .hotdeal-issue__index {
+    margin-bottom: 30px;
+  }
+  .hotdeal-issue__index h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .community__index {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .community__index article {
+    padding: 0 !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    float: none !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  .community__index article .tit a {
+    font-size: 14px;
+  }
+  .community__index article .inner ul {
+    margin-top: 10px;
+  }
+  .community__index article .inner ul li {
+    margin-top: 5px;
+  }
+  .community__article--free {
+    display: none !important;
+  }
+  .ad-taboola__index {
+    margin-bottom: 0;
+  }
+  /*--------------트렌드있슈------------*/
+  article.trand-issue__article {
+    margin-bottom: 5px;
+  }
+  article.trand-issue__article .trand-issue__banner .desc {
+    padding: 20px;
+    left: 0 !important;
+    bottom: 0 !important;
+  }
+  article.trand-issue__article .trand-issue__banner .desc .tit {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 60 px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  article.trand-issue__article a .trand-issue__tag-name {
+    font-size: 16px;
+  }
+  article.trand-issue__article:nth-last-of-type(1) {
+    margin-bottom: 5px;
+  }
+  /*-------------돈되는 꿀팁정보----------*/
+  .moeny-tip__list ul li {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 15px !important;
+  }
+  .moeny-tip__list ul li a .img img {
+    width: 100%;
+  }
+  .moeny-tip__list ul li a .desc {
+    margin-top: 10px;
+  }
+  .moeny-tip__list ul li a .desc .tit {
+    font-size: 14px;
+    height: 42px;
+  }
+  .moeny-tip__list ul li a .desc .author {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #9b9b9b;
+  }
+  .moeny-tip__list ul li a:hover .tit {
+    color: #6332f6;
+  }
+  .moeny-tip__list li:nth-child(2n + 0) {
+    margin-right: 0 !important;
+  }
+  /*-------------핫딜있쓔-------------------*/
+  .hotdeal-issue__list ul li {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .hotdeal-issue__list ul li a .img {
+    padding: 30px;
+  }
+  .hotdeal-issue__list ul li a .desc .tit {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    color: #424242;
+    font-size: 14px;
+    font-family: s-core-dream-regular;
+  }
+  .hotdeal-issue__list ul li a .desc .price {
+    margin-top: 20px;
+    color: #111111;
+    font-size: 20px;
+  }
+  .hotdeal-issue__list ul li a .desc .fee {
+    margin-top: 5px;
+    color: #9b9b9b;
+    font-size: 13px;
+  }
+  .hotdeal-issue__list ul li a .desc .icon {
+    margin-top: 5px;
+    font-size: 10px;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  .hotdeal-issue__list ul li a .desc .icon .icon__site {
+    padding: 3px 5px;
+    background-color: #6332f6;
+    float: left;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .hotdeal-issue__list ul li a .desc .icon .icon__cum {
+    padding: 3px 5px;
+    background-color: #d2d6d9;
+    float: left;
+    display: inline-block;
+  }
+  .hotdeal-issue__list ul li a .desc .btn {
+    float: right;
+    margin-top: 10px;
+  }
+  .hotdeal-issue__list ul li a .desc .btn .share img {
+    width: 20px;
+  }
+  .hotdeal-issue__list ul li a .desc .btn .like {
+    margin-left: 10px;
+  }
+  .hotdeal-issue__list ul li a .desc .btn .like img {
+    width: 20px;
+  }
+  .hotdeal-issue__list ul li a:hover .tit {
+    color: #6332f6;
+  }
+  .hotdeal-issue__list li:nth-child(2n + 0) {
+    margin-right: 0 !important;
+  }
+  .hotdeal-issue__list li:nth-of-type(5n + 0) {
+    margin-right: 4%;
+  }
+}
+/*# sourceMappingURL=media_mobile.css.map */

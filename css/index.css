@@ -161,6 +161,10 @@
   margin-top: 10px;
 }
 
+.community__index article .inner ul li a:hover {
+  color: #6332f6;
+}
+
 .community__index article:nth-last-child(1) {
   margin-right: 0;
 }

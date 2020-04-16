@@ -8,4 +8,19 @@
 .aside__728x90 {
   margin: 0 auto;
 }
+
+.aside-test__320x100 {
+  margin: 0 auto;
+  width: 320px;
+  height: 100px;
+  background-color: hotpink;
+}
+
+.aside__320x100 {
+  display: none;
+}
+
+.aside-test__320x100 {
+  display: none;
+}
 /*# sourceMappingURL=aside.css.map */

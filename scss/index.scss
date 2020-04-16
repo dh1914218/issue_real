@@ -150,6 +150,9 @@
         li {
           margin-top: 10px;
           a {
+            &:hover {
+              color: $purple;
+            }
           }
         }
       }

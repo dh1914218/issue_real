@@ -1,0 +1,16 @@
+.footer {
+  background-color: #f6f9ff;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.footer .inner ul li {
+  float: left;
+}
+
+.footer .inner ul li a {
+  display: inline-block;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=footer.css.map */
