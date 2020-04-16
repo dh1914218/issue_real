@@ -21,6 +21,10 @@
 }
 
 /*-----------none--------------*/
+.m-nav {
+  display: none;
+}
+
 .m-nav__btn {
   display: none;
 }

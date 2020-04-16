@@ -20,30 +20,43 @@ article.trand-issue__article a .trand-issue__banner {
 
 article.trand-issue__article a .trand-issue__banner .banner__black-cover {
   background-color: #000000;
-  opacity: 0.6;
+  opacity: 0.7;
   width: 730px;
   height: 150px;
 }
 
 article.trand-issue__article a .trand-issue__banner .desc {
+  width: 100%;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 0px;
+  left: 0px;
   color: #ffffff;
   font-weight: 300;
+  padding: 20px;
 }
 
 article.trand-issue__article a .trand-issue__banner .desc .tit {
   font-size: 25px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 74px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-weight: 100 !important;
 }
 
 article.trand-issue__article a .trand-issue__banner .desc .sub-tit {
+  text-align: center;
   margin-top: 10px;
   font-size: 16px;
+  font-weight: 100;
 }
 
 article.trand-issue__article a .trand-issue__banner .desc .sub-tit em {
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 article.trand-issue__article a:hover .trand-issue__tag-name {

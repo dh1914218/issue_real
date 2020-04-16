@@ -1,37 +1,77 @@
 @import "partial/styles";
 
 /*-----배너----*/
-.banner-index {
-  background: url(/img/banner-index.jpg);
-  height: 450px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
 
-  .banner-index__black-cover {
-    height: 450px;
-    width: 100%;
-    background-color: #000;
-    opacity: 0.8;
-    text-align: center;
-  }
-  .desc {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.banner-index {
+  position: relative;
+  button {
     position: absolute;
-    display: inline-block;
-    width: 730px;
-    text-align: center;
     z-index: 10;
-    color: #ffffff !important;
-    font-size: 45px;
-    font-weight: 100;
-    font-family: "Nanum Myeongjo", serif;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  button.slick-prev {
+    left: 50px;
+    font-size: 0;
+    color: transparent;
+  }
+
+  button.slick-prev::before {
+    content: "\e93d";
+    font-family: "xeicon";
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  button.slick-next {
+    right: 50px;
+    font-size: 0;
+    color: transparent;
+  }
+
+  button.slick-next::before {
+    content: "\e940";
+    font-family: "xeicon";
+    color: #ffffff;
+    font-size: 30px;
   }
 }
+
+// .banner-index {
+//   background: url(/img/banner-index.jpg);
+//   height: 450px;
+//   width: 100%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   position: relative;
+
+//   .banner-index__black-cover {
+//     height: 450px;
+//     width: 100%;
+//     background-color: #000;
+//     opacity: 0.8;
+//     text-align: center;
+//   }
+//   .desc {
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     position: absolute;
+//     display: inline-block;
+//     width: 730px;
+//     text-align: center;
+//     z-index: 10;
+//     color: #ffffff !important;
+//     font-size: 45px;
+//     font-weight: 100;
+//     font-family: "Nanum Myeongjo", serif;
+//   }
+// }
 
 /*--------더보기---------*/
 .add-btn__index {

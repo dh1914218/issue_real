@@ -15,6 +15,20 @@
   <link rel="stylesheet" href="css/hotdeal-issue.css" />
   <link rel="stylesheet" href="css/media_mobile.css" />
   <link rel="stylesheet" href="css/footer.css" />
+
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <!-- //slcik  -->
+
+  <link
+    rel="stylesheet"
+    href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+  />
+  <!-- //xeicon -->
+
   <body>
     <section class="m-nav">
       <div class="m-nav__inner">
@@ -57,8 +71,7 @@
           기타
           <ul>
             <li><a href="#">공지사항</a></li>
-            <li><a href="#">이용약관</a></li>
-            <li><a href="#">ㅇㅇㅇ</a></li>
+            <li><a href="#">건의사항</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
@@ -75,7 +88,7 @@
         </div>
       </div>
       <div class="header__logo">
-        <a href="#">로고입니다</a>
+        <a href="index.html">로고입니다</a>
       </div>
 
       <nav class="header__nav">
@@ -94,11 +107,11 @@
     <!-- //헤더 -->
 
     <section class="banner-index">
-      <div class="banner-index__black-cover"></div>
-      <div class="desc">
-        "민식이법 강간형량이랑 같아, 일부 국민들 이게 도대체 말이 되나"
-      </div>
+      <div><img src="img/test-1.png" alt="" /></div>
+      <div><img src="img/test-2.png" alt="" /></div>
+      <div><img src="" alt="" /></div>
     </section>
+    <!-- //배너 테스트 -->
 
     <div class="container">
       <div class="m_border"></div>
@@ -134,7 +147,8 @@
                   <div class="banner__black-cover"></div>
                   <div class="desc">
                     <div class="tit">
-                      "안철수의원 재난지원금 포플리즘 정책비판"
+                      "안철수의원 재난지원금 포플리즘 정책비판 "안철수의원
+                      재난지원금 포플리즘 정책비판" "
                     </div>
                     <div class="sub-tit"><em>58</em>개의 의견이 있습니다</div>
                   </div>
@@ -151,7 +165,7 @@
                   <div class="banner__black-cover"></div>
                   <div class="desc">
                     <div class="tit">
-                      "안철수의원 재난지원금 포플리즘 정책비판"
+                      "안철수의원 재난지원금 "
                     </div>
                     <div class="sub-tit"><em>58</em>개의 의견이 있습니다</div>
                   </div>
@@ -740,5 +754,14 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+      $(".banner-index").slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+      });
+    </script>
   </body>
 </html>
