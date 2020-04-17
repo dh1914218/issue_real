@@ -76,24 +76,104 @@
 }
 
 /*--------돈되는 꿀팁정보---------*/
-.moeny-tip__index {
+.money-tip__index {
   margin-top: 50px;
 }
 
-.moeny-tip__index h1 {
+.money-tip__index h1 {
   text-align: center;
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 30px;
 }
 
-.moeny-tip__index h1 em {
+.money-tip__index h1 em {
   color: #6332f6;
   font-weight: 500;
 }
 
-.moeny-tip__index .moeny-tip__list ul li {
+.money-tip__index .moeny-tip__list ul li {
   margin-bottom: 0;
+}
+
+.money-tip__index .money-tip__list--index .money-tip__list-item--index {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.money-tip__index .money-tip__list--index .money-tip__list-item--index a .desc {
+  margin-top: 10px;
+}
+
+.money-tip__index .money-tip__list--index .money-tip__list-item--index a .desc .tit {
+  font-size: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 54px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.money-tip__index .money-tip__list--index .money-tip__list-item--index a .desc .author {
+  margin-top: 10px;
+  color: #9b9b9b;
+}
+
+.money-tip__index .money-tip__list--index .money-tip__list-item--index a:hover .tit {
+  color: #6332f6;
+}
+
+.money-tip__list--index {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.money-tip__list--index h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.money-tip__list--index h1 em {
+  color: #6332f6;
+  font-weight: 500;
+}
+
+.money-tip__list--index button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.money-tip__list--index button.slick-prev {
+  font-size: 0;
+  color: transparent;
+  left: -100px;
+}
+
+.money-tip__list--index button.slick-prev::before {
+  content: "\e93d";
+  font-family: "xeicon";
+  color: #555555;
+  font-size: 80px;
+}
+
+.money-tip__list--index button.slick-next {
+  font-size: 0;
+  color: transparent;
+  right: -100px;
+}
+
+.money-tip__list--index button.slick-next::before {
+  content: "\e940";
+  font-family: "xeicon";
+  color: #262626;
+  font-size: 80px;
 }
 
 /*-----------핫딜있슈-------------*/

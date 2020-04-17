@@ -203,7 +203,11 @@
                     <img src="img/money-tip.png" alt="" />
                   </div>
                   <div class="desc">
-                    <div class="tit">월세 소득공제 받는법!!</div>
+                    <div class="tit">
+                      월세 소득공제 받는법!!월세 소득공제 받는법!!월세 소득공제
+                      받는법!!월세 소득공제 받는법!!월세 소득공제 받는법!!월세
+                      소득공제 받는법!!월세 소득공제 받는법!!
+                    </div>
                     <div class="author">마스터대돌</div>
                   </div>
                 </a>
@@ -835,6 +839,24 @@
 
         autoplay: true,
         autoplaySpeed: 2000,
+        responsive: [
+          // 반응형 웹 구현 옵션
+          {
+            breakpoint: 960, //화면 사이즈 960px
+            settings: {
+              //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 480, //화면 사이즈 768px
+            settings: {
+              //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+              slidesToShow: 1.5,
+              // slidesToScroll: 0.5,
+            },
+          },
+        ],
       });
     </script>
   </body>

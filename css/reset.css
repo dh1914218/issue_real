@@ -622,6 +622,15 @@ html {
   box-sizing: inherit;
 }
 
+/* 슬릭슬라이더 */
+.slick-slide :focus {
+  outline: none;
+}
+
+.slick-slide a {
+  outline: none;
+}
+
 /* rem */
 /* html {
   font-size: 16px;
