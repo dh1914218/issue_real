@@ -16,7 +16,9 @@
 
   /*-------aside--------*/
   .aside-test__728x90,
-  .aside__728x90 {
+  .aside__728x90,
+  .aside-test__160x600,
+  .aside-test__250x250 {
     display: none;
   }
 
@@ -259,6 +261,42 @@
   }
 
   /*--------------트렌드있슈------------*/
+
+  .trand-issue__inner {
+    margin-top: 30px !important;
+    float: none;
+    width: 100%;
+    width: 100% !important;
+    h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .fillter {
+      margin-bottom: 20px !important;
+      ul {
+        li {
+          button {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    article {
+      .trand-issue__banner {
+        width: 100% !important;
+        .banner__black-cover {
+          width: 100% !important;
+        }
+        .desc {
+          .tit {
+            font-size: 20px !important;
+          }
+        }
+      }
+    }
+  }
 
   article.trand-issue__article {
     margin-bottom: 5px;

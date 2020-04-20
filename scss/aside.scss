@@ -9,6 +9,7 @@
 .aside__728x90 {
   margin: 0 auto;
 }
+
 .aside-test__320x100 {
   margin: 0 auto;
   width: 320px;
@@ -21,4 +22,22 @@
 
 .aside-test__320x100 {
   display: none;
+}
+
+.aside-test__250x250 {
+  float: left;
+  // margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background-color: hotpink;
+  margin-right: 20px;
+  margin-top: 200px;
+}
+
+.aside-test__160x600 {
+  float: right;
+  width: 160px;
+  height: 600px;
+  background-color: hotpink;
+  margin-top: 200px;
 }

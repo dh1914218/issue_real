@@ -19,7 +19,20 @@
     height: 500px;
   }
 }
-`
+
+.add-btn {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  button {
+    color: #424242;
+    width: 280px;
+    height: 56px;
+    line-height: 56px;
+    background-color: #e8e8ed;
+    border-radius: 30px;
+  }
+}
 
 /*-----------none--------------*/
 .m-nav {

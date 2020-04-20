@@ -13,7 +13,9 @@
   }
   /*-------aside--------*/
   .aside-test__728x90,
-  .aside__728x90 {
+  .aside__728x90,
+  .aside-test__160x600,
+  .aside-test__250x250 {
     display: none;
   }
   .aside-test__320x100,
@@ -197,6 +199,31 @@
     color: #6332f6;
   }
   /*--------------트렌드있슈------------*/
+  .trand-issue__inner {
+    margin-top: 30px !important;
+    float: none;
+    width: 100%;
+    width: 100% !important;
+  }
+  .trand-issue__inner h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .trand-issue__inner .fillter {
+    margin-bottom: 20px !important;
+  }
+  .trand-issue__inner .fillter ul li button {
+    font-size: 18px;
+  }
+  .trand-issue__inner article .trand-issue__banner {
+    width: 100% !important;
+  }
+  .trand-issue__inner article .trand-issue__banner .banner__black-cover {
+    width: 100% !important;
+  }
+  .trand-issue__inner article .trand-issue__banner .desc .tit {
+    font-size: 20px !important;
+  }
   article.trand-issue__article {
     margin-bottom: 5px;
   }
