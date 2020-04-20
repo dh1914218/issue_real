@@ -21,24 +21,24 @@
   color: #6332f6;
 }
 
-.trand-issue__inner .fillter {
+.trand-issue__inner .filter {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.trand-issue__inner .fillter ul {
+.trand-issue__inner .filter ul {
   display: inline-block;
 }
 
-.trand-issue__inner .fillter ul li {
+.trand-issue__inner .filter ul li {
   float: left;
 }
 
-.trand-issue__inner .fillter ul li button {
+.trand-issue__inner .filter ul li button {
   font-size: 20px;
 }
 
-.trand-issue__inner .fillter ul li:nth-of-type(1) {
+.trand-issue__inner .filter ul li:nth-of-type(1) {
   margin-right: 30px;
 }
 

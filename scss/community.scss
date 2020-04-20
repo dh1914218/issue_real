@@ -1,0 +1,147 @@
+@import "partial/styles";
+
+.img-blank {
+  width: 93px;
+  height: 60px;
+  display: block;
+  vertical-align: middle;
+}
+
+.community {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.community__inner {
+  width: 1000px;
+  float: right;
+
+  .filter-cate {
+    margin-bottom: 15px !important;
+    box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+    height: 56px;
+    line-height: 56px;
+    .filter-cate__inner {
+      ul {
+        li {
+          float: left;
+          a {
+            padding: 0 20px;
+            &:hover {
+              color: $purple;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .filter {
+    margin-top: 15px;
+    ul {
+      li {
+        float: left;
+        button {
+          font-size: 20px;
+        }
+      }
+      li.btn {
+        float: right;
+        button {
+          margin-top: -15px;
+          img {
+            width: 40px;
+          }
+        }
+      }
+
+      li:nth-of-type(1) {
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+.community__cont {
+  margin-top: 30px;
+  box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+  margin-bottom: 30px;
+
+  article {
+    padding: 8px 16px;
+    display: table;
+    table-layout: fixed;
+    border-bottom: 1px solid #e8e8ed;
+    .desc {
+      display: table-cell;
+      width: 100%;
+      vertical-align: middle;
+      ul {
+        li.tit {
+          a {
+            font-size: 14px;
+            em {
+              color: $purple;
+            }
+
+            &:hover {
+              color: $purple;
+            }
+
+            &:active {
+              color: #aaaaaa;
+            }
+          }
+        }
+        li.meta-data {
+          font-size: 14px;
+          color: #9b9b9b;
+          margin-top: 4px;
+        }
+      }
+    }
+
+    .img {
+      display: table-cell;
+      vertical-align: middle;
+      img {
+        width: 93px;
+        height: 60px;
+        display: block;
+        object-fit: cover;
+      }
+    }
+  }
+
+  article: nth-last-of-type(1) {
+    border: none;
+  }
+}
+
+.community__btn {
+  text-align: center;
+
+  ul {
+    display: inline-block;
+    li {
+      float: left;
+      button {
+        box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+        height: 48px;
+        width: 80px;
+        img {
+          margin: 5px;
+          vertical-align: middle;
+          width: 15px;
+        }
+        div {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    li:nth-of-type(1) {
+      margin-right: 10px;
+    }
+  }
+}

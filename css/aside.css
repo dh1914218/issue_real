@@ -40,4 +40,22 @@
   background-color: hotpink;
   margin-top: 200px;
 }
+
+.aside-test__160x600--cum-l {
+  float: left;
+  width: 160px;
+  height: 600px;
+  background-color: hotpink;
+  margin-right: 20px !important;
+}
+
+.aside-test__160x600--cum-r {
+  position: absolute;
+  width: 160px;
+  height: 600px;
+  background-color: hotpink;
+  margin-right: 20px !important;
+  top: 0;
+  right: -200px;
+}
 /*# sourceMappingURL=aside.css.map */
