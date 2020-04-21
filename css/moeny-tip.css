@@ -1,12 +1,26 @@
+.money-tip {
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.money-tip__inner {
+  width: 1000px;
+  float: right;
+}
+
+.moeny-tip__list {
+  margin-top: 15px;
+}
+
 .moeny-tip__list ul li {
-  width: 280px;
+  width: 235px;
   margin-right: 20px;
   float: left;
   margin-bottom: 20px;
 }
 
 .moeny-tip__list ul li a .img img {
-  width: 280px;
+  width: 235px;
 }
 
 .moeny-tip__list ul li a .desc {
@@ -14,11 +28,11 @@
 }
 
 .moeny-tip__list ul li a .desc .tit {
-  font-size: 18px;
+  font-size: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  height: 54px;
+  height: 48px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
@@ -27,6 +41,7 @@
 .moeny-tip__list ul li a .desc .author {
   margin-top: 15px;
   color: #9b9b9b;
+  font-size: 14px;
 }
 
 .moeny-tip__list ul li a:hover .tit {

@@ -31,7 +31,44 @@
     line-height: 56px;
     background-color: #e8e8ed;
     border-radius: 30px;
+    &:hover {
+      opacity: 0.6;
+    }
   }
+}
+
+.add-btn.other {
+  margin-top: 10px;
+}
+
+.pagination {
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+  height: 48px;
+
+  ul {
+    display: inline-block;
+    li {
+      float: left;
+      line-height: 48px;
+      a {
+        display: inline-block;
+        padding: 0 10px;
+      }
+      button {
+        padding: 0 10px;
+
+        img {
+          width: 16px;
+        }
+      }
+    }
+  }
+}
+
+.pagination.other {
+  margin-top: 30px;
 }
 
 /*-----------none--------------*/
@@ -44,6 +81,7 @@
 
 /*---------------헤더----------------*/
 .header {
+  background-color: #ffffff;
   box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
 
   height: 80px;
@@ -72,6 +110,63 @@
         margin-left: 30px;
         a {
           margin-left: 100px;
+        }
+      }
+    }
+  }
+}
+
+/*-------------실시간 커뮤니티----------*/
+.community-live {
+  .community-live__inner {
+    width: 1000px;
+    box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    .tit {
+      position: relative;
+      padding-left: 15px;
+      color: $purple;
+      font-weight: 500;
+      &::before {
+        content: "";
+        top: 4px;
+        left: 3px;
+        position: absolute;
+        width: 3px;
+        height: 15px;
+        background-color: $purple;
+      }
+      .add-text {
+        display: inline-block;
+        float: right;
+        a {
+          font-size: 14px;
+          color: #9b9b9b;
+        }
+      }
+    }
+    .community-live__cont {
+      margin-top: 5px;
+
+      ul {
+        li {
+          a {
+            display: inline-block;
+            padding-top: 5px;
+            font-size: 14px;
+            span {
+              color: #9b9b9b;
+            }
+            em {
+              color: $purple;
+            }
+            &:hover {
+              color: $purple;
+            }
+          }
         }
       }
     }

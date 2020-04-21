@@ -58,6 +58,10 @@
   border-radius: 30px;
 }
 
+.add-btn__index button:hover {
+  opacity: 0.6;
+}
+
 /*-------트렌드이슈---------*/
 .trand-issue__index {
   margin-top: 50px;

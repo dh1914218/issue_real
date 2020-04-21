@@ -1,10 +1,21 @@
+.hotdeal-issue {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.hotdeal-issue__inner {
+  width: 1000px;
+  float: right;
+}
+
 .hotdeal-issue__list ul li {
   float: left;
-  width: 220px;
-  margin-right: 20px;
+  width: 19%;
+  margin-right: 1.25%;
   background-color: #ffffff;
   padding: 10px;
   margin-bottom: 20px;
+  border: 1px solid #e8e8ed;
 }
 
 .hotdeal-issue__list ul li a .img {
@@ -81,5 +92,49 @@
 
 .hotdeal-issue__list li:nth-of-type(5n + 0) {
   margin-right: 0;
+}
+
+.hotdeal-issue__search {
+  margin-top: 15px;
+  -webkit-box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+          box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.hotdeal-issue__search .inner .form {
+  padding: 30px;
+}
+
+.hotdeal-issue__search .inner .form input {
+  vertical-align: middle;
+  border-bottom: 1px solid #6332f6 !important;
+  border: none;
+  width: 80%;
+  padding: 10px;
+}
+
+.hotdeal-issue__search .inner .form input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.hotdeal-issue__search .inner .form input:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.hotdeal-issue__search .inner .form input::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.hotdeal-issue__search .inner .form input::placeholder {
+  font-size: 14px;
+}
+
+.hotdeal-issue__search .inner .form button img {
+  margin-top: 15px;
+  margin-left: 10px;
+  vertical-align: middle;
+  width: 20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=hotdeal-issue.css.map */
