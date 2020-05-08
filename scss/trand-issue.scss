@@ -117,3 +117,285 @@ article.trand-issue__article {
 article.trand-issue__article:nth-last-of-type(1) {
   margin-bottom: 0;
 }
+
+/*--------------트랜드 이슈 디테일뷰--------------*/
+
+.banner-issue-tag {
+  margin-bottom: 50px;
+  height: 900px;
+  background: url(../img/banner-index.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  .banner__black-cover {
+    background-color: #000000;
+    opacity: 0.7;
+    height: 900px;
+    position: relative;
+  }
+
+  .banner-issue-tag__tit {
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    color: #ffffff;
+    // text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: "Nanum Myeongjo", serif;
+  }
+}
+
+.trnas-issue-detailveiw__desc {
+  margin-bottom: 70px;
+
+  .tit {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .cont {
+  }
+}
+
+.trnas-issue-detailveiw__article {
+  margin-bottom: 40px;
+  .tit {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .cont {
+    ul {
+      li {
+        border-bottom: 1px solid #e8e8ed;
+        margin-bottom: 20px;
+        a {
+          font-size: 20px;
+          display: inline-block;
+          padding-bottom: 20px;
+          &:hover {
+            color: $purple;
+          }
+
+          &:active {
+            color: #aaaaaa;
+          }
+        }
+      }
+    }
+  }
+}
+
+.trnas-issue-detailveiw__youtube {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  .tit {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .cont {
+    ul {
+      li {
+        overflow: hidden;
+        border-bottom: 1px solid #e8e8ed;
+        padding: 20px 0;
+        // flex: 1;
+        .thumbnail {
+          float: left;
+          width: 320px;
+          height: 180px;
+          img {
+            width: 320px;
+            width: 100%;
+            display: block;
+            height: 180px;
+          }
+        }
+
+        .desc {
+          height: 180px;
+          width: 56%;
+          float: left;
+          padding: 20px 10px;
+          position: relative;
+          .youtube__tit {
+            font-size: 20px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-bottom: 10px;
+            a {
+              &:hover {
+                color: $purple;
+              }
+              &:active {
+                color: #aaaaaa;
+              }
+            }
+          }
+          .youtube__sub-tit {
+            color: #9b9b9b;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+
+            height: 72px;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+          }
+          .youtub__athor {
+            position: absolute;
+            bottom: 20px;
+            color: #9b9b9b;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.trnas-issue-detailveiw__opinion-vote {
+  margin-top: 50px;
+  .btn {
+    text-align: center;
+    ul {
+      display: inline-block;
+      li {
+        margin-right: 25px;
+        margin-left: 25px;
+        float: left;
+        button {
+          position: relative;
+
+          color: #333333;
+          text-align: center;
+          width: 150px;
+          height: 68px;
+          border-radius: 37px;
+          box-shadow: rgba(41, 42, 43, 0.1) 0px 4px 10px,
+            rgba(41, 42, 43, 0.04) 0px 1px 0px;
+
+          span {
+            position: absolute;
+            top: 88px;
+            left: 50%;
+            color: #333333 !important;
+          }
+
+          &:hover {
+            background-color: $purple;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.trnas-issue-detailveiw__opinion-conmmnet {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  .inner {
+    border-top: 1px solid #e8e8ed;
+  }
+
+  .commnet-btn {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    ul {
+      li {
+        float: left;
+        button {
+          margin-right: 20px;
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .commnet-inner {
+    article {
+      border: 1px solid #e8e8ed;
+      position: relative;
+      margin-bottom: 5px;
+      height: 140px;
+
+      padding: 20px;
+      display: flex;
+      .profile-img {
+        margin-right: 10px;
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 1px solid #e8e8ed;
+          object-fit: cover;
+        }
+      }
+      .desc {
+        position: relative;
+        width: 100%;
+        font-size: 14px;
+        margin-right: 56px;
+        .user-name {
+          font-weight: 500;
+          color: #111111;
+          margin-bottom: 5px;
+        }
+        .cont {
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+
+          height: 40px;
+
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: normal;
+        }
+        .commnet-add-btn {
+          position: absolute;
+          bottom: 0px;
+          button {
+            font-size: 14px;
+            color: #9b9b9b;
+          }
+        }
+      }
+
+      .like-btn {
+        // position: absolute;
+        // top: 50%;
+        // transform: translateY(-50%);
+        line-height: 100px;
+
+        button {
+          font-size: 14px;
+          vertical-align: middle;
+
+          img {
+            width: 16px;
+          }
+          div {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

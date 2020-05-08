@@ -25,6 +25,11 @@
     margin-top: 15px !important;
   }
 
+  .add-btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
   /*-------aside--------*/
   .aside-test__728x90,
   .aside__728x90,
@@ -281,7 +286,7 @@
     }
   }
 
-  /*--------------트렌드있슈------------*/
+  /*--------------트렌드 태그------------*/
 
   .trand-issue__inner {
     margin-top: 30px !important;
@@ -580,5 +585,148 @@
   .community__cont {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
+  }
+
+  /*----------트랜드이슈 디테일뷰------------*/
+  .banner-issue-tag {
+    height: 400px;
+    .banner__black-cover {
+      height: 400px;
+    }
+
+    .banner-issue-tag__tit {
+      font-size: 25px;
+    }
+  }
+
+  .trnas-issue-detailveiw__desc {
+    margin-bottom: 10px;
+    .tit {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .trnas-issue-detailveiw__article {
+    margin-top: 30px;
+    margin-bottom: 0;
+    .tit {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .cont {
+      ul {
+        li {
+          margin-bottom: 10px;
+          a {
+            font-size: 16px;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .trnas-issue-detailveiw__youtube {
+    margin-top: 30px;
+    margin-bottom: 0;
+    .tit {
+      font-size: 20px;
+    }
+    .cont {
+      ul {
+        li {
+          padding: 10px 0;
+          .thumbnail {
+            width: 120px;
+            height: 120px;
+            position: relative;
+            img {
+              top: 50%;
+              transform: translateY(-50%);
+              position: absolute;
+              width: 120px;
+              height: 90px;
+            }
+          }
+          .desc {
+            width: 62%;
+            padding: 10px;
+            height: 120px;
+            .youtube__tit {
+              font-size: 16px;
+              a {
+              }
+            }
+            .youtube__sub-tit {
+              font-size: 14px;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+
+              height: 40px;
+
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: normal;
+            }
+            .youtub__athor {
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .trnas-issue-detailveiw__opinion-vote {
+    margin-top: 30px;
+    .btn {
+      ul {
+        li {
+          margin-right: 10px;
+          margin-left: 10px;
+          button {
+            height: 56px;
+            width: 130px;
+            span {
+              top: 78px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .trnas-issue-detailveiw__opinion-conmmnet {
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+    .commnet-btn {
+      margin-top: 30px;
+      ul {
+        li {
+          button {
+            margin-right: 30px;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .commnet-inner {
+      article {
+        padding: 10px;
+        height: 120px;
+
+        .desc {
+          margin-right: 15px;
+        }
+      }
+    }
   }
 }
