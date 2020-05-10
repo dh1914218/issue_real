@@ -403,4 +403,193 @@ article.trand-issue__article:nth-last-of-type(1) {
 .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .like-btn button div {
   font-size: 14px;
 }
+
+/*---------------팝업--------------*/
+.pop-up__commnet-view {
+  background-color: #ffffff;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5010;
+  top: 50%;
+  left: 50%;
+}
+
+.pop-up__commnet-view .inner {
+  width: 730px;
+}
+
+.pop-up__commnet-view .inner .header {
+  height: 56px;
+  border-bottom: 1px solid #6332f6;
+}
+
+.pop-up__commnet-view .inner .header button {
+  line-height: 56px;
+  padding: 0 20px;
+}
+
+.pop-up__commnet-view .inner .header button img {
+  width: 20px;
+  height: 20px;
+}
+
+.pop-up__commnet-view .inner .cont .opinion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e8e8ed;
+  padding: 20px;
+}
+
+.pop-up__commnet-view .inner .cont .opinion .profile-img {
+  margin-right: 10px;
+}
+
+.pop-up__commnet-view .inner .cont .opinion .profile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e8e8ed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pop-up__commnet-view .inner .cont .opinion .user-desc {
+  width: 100%;
+}
+
+.pop-up__commnet-view .inner .cont .opinion .user-desc .user-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pop-up__commnet-view .inner .cont .opinion .user-desc .user-opinion {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.pop-up__commnet-view .inner .cont .commnet {
+  border-bottom: 1px solid #e8e8ed;
+}
+
+.pop-up__commnet-view .inner .cont .commnet .commnet-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 10px 40px;
+}
+
+.pop-up__commnet-view .inner .cont .commnet .commnet-article .profile-img {
+  margin-right: 10px;
+}
+
+.pop-up__commnet-view .inner .cont .commnet .commnet-article .profile-img img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #e8e8ed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pop-up__commnet-view .inner .cont .commnet .commnet-article .user-desc {
+  width: 100%;
+}
+
+.pop-up__commnet-view .inner .cont .commnet .commnet-article .user-desc .user-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pop-up__commnet-view .inner .cont .commnet .commnet-article .user-desc .user-commnet {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.pop-up__commnet-view .inner .commnet-write {
+  height: 56px;
+}
+
+.pop-up__commnet-view .inner .commnet-write .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pop-up__commnet-view .inner .commnet-write .inner textarea {
+  padding: 15px 20px;
+  width: 100%;
+  height: 56px;
+  border: 0;
+}
+
+.pop-up__commnet-view .inner .commnet-write .inner button {
+  height: 56px;
+  line-height: 56px;
+  width: 130px;
+  color: #6332f6;
+  font-weight: 500;
+}
+
+.pop-up__commnet-write {
+  background-color: #ffffff;
+  z-index: 5010;
+  background-color: #ffffff;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5010;
+  top: 50%;
+  left: 50%;
+}
+
+.pop-up__commnet-write .inner {
+  width: 730px;
+}
+
+.pop-up__commnet-write .inner .header {
+  height: 56px;
+}
+
+.pop-up__commnet-write .inner .header button.cancel {
+  height: 56px;
+  padding: 0 20px;
+}
+
+.pop-up__commnet-write .inner .header button.cancel img {
+  width: 20px;
+  height: 20px;
+}
+
+.pop-up__commnet-write .inner .header button.write {
+  padding: 0 20px;
+  height: 56px;
+  float: right;
+  color: #6332f6;
+  font-weight: 500;
+}
+
+.pop-up__commnet-write .inner .cont {
+  padding: 20px;
+}
+
+.pop-up__commnet-write .inner .cont textarea {
+  width: 100%;
+  height: 200px;
+  border: 0;
+}
+
+.pop-up__commnet-write .inner .pop-up__commnet-write-footer {
+  height: 56px;
+}
+
+.pop-up__commnet-write .inner .pop-up__commnet-write-footer button {
+  line-height: 56px;
+  padding: 0 20px;
+}
+
+.pop-up__commnet-write .inner .pop-up__commnet-write-footer button img {
+  width: 20px;
+}
 /*# sourceMappingURL=trand-issue.css.map */

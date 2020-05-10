@@ -1,6 +1,10 @@
 @import "partial/styles";
 
 /*------레이아웃-----*/
+
+body {
+  position: relative;
+}
 .container {
   margin: 0 auto;
   width: 1180px;
@@ -9,6 +13,17 @@
 .container-2 {
   margin: 0 auto;
   width: 730px;
+  position: relative;
+}
+
+.background-black-cover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5000;
 }
 
 .ad-taboola__index {
