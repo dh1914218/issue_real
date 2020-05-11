@@ -313,6 +313,23 @@
   .moeny-tip__list li:nth-child(2n + 0) {
     margin-right: 0 !important;
   }
+  /*--------돈되는꿀팁 디테일뷰----------*/
+  .money-tip-detailview {
+    width: 100%;
+    margin-top: -30px;
+  }
+  .money-tip-detailview__header .tit {
+    font-size: 20px;
+  }
+  .money-tip-detailview__header .sub-tit {
+    font-size: 14px;
+  }
+  .money-tip-detailview__cont .inner {
+    padding: 20px;
+  }
+  .money-tip-detailview__cont .inner p img {
+    width: 100%;
+  }
   /*-------------핫딜있쓔-------------------*/
   .hotdeal-issue {
     margin-top: 30px !important;
@@ -446,6 +463,30 @@
   .community__cont {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
+  }
+  /*-----커뮤니티 디테일뷰-----*/
+  .community-detailview {
+    margin-top: -20px !important;
+  }
+  .community-detailview__header .tit {
+    font-size: 20px !important;
+  }
+  .community-detailview__header .sub-tit {
+    font-size: 14px;
+  }
+  .community-detailview__header .sub-tit .desc div {
+    margin-top: 5px;
+  }
+  .community-detailview__cont .inner {
+    padding: 20px !important;
+  }
+  .community-detailview__btn,
+  .community-detailview__write,
+  .community-detailview__commnet {
+    margin-top: 10px !important;
+  }
+  .community-detailview__commnet article .article-sub {
+    padding: 20px 20px 20px 50px !important;
   }
   /*----------트랜드이슈 디테일뷰------------*/
   .banner-issue-tag {

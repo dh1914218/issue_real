@@ -58,3 +58,67 @@
 .moeny-tip__list li:nth-of-type(4n) {
   margin-right: 0;
 }
+
+/*----------돈버는꿀팁 디테일뷰---------*/
+
+.money-tip-detailview {
+  box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+  width: 1000px;
+  float: right;
+  .money-tip-detailview__inner {
+  }
+}
+
+.money-tip-detailview__header {
+  padding: 20px;
+  border-bottom: 1px solid #e8e8ed;
+  .tit {
+    font-size: 25px;
+  }
+  .sub-tit {
+    // display: inline-block;
+    margin-top: 15px;
+    .profile-img {
+      display: inline-block;
+      vertical-align: middle;
+      img {
+        vertical-align: middle;
+
+        border-radius: 50%;
+        object-fit: cover;
+
+        width: 32px;
+        height: 32px;
+      }
+      .user-name {
+        vertical-align: middle;
+
+        display: inline-block;
+      }
+    }
+    .desc {
+      float: right;
+      display: inline-block;
+      margin-top: 5px;
+
+      .time {
+        vertical-align: middle;
+        color: #9b9b9b;
+      }
+    }
+  }
+}
+
+.money-tip-detailview__cont {
+  .inner {
+    padding: 30px;
+    p {
+      margin-bottom: 20px;
+      img {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
