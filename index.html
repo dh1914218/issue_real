@@ -23,6 +23,10 @@
   />
   <!-- //slcik  -->
 
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
+  <!-- //swiper -->
+
   <link
     rel="stylesheet"
     href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
@@ -107,11 +111,32 @@
     <!-- //헤더 -->
 
     <section class="banner-index">
-      <div><img src="img/test-1.png" alt="" /></div>
-      <div><img src="img/test-2.png" alt="" /></div>
-      <div><img src="" alt="" /></div>
+      <div>
+        <img src="img/test-1.png" alt="인덱스" class="banner-index__img" />
+      </div>
+      <div>
+        <img src="img/test-2.png" alt="" class="banner-index__img" />
+      </div>
+
+      <div>
+        <img src="img/test-1.png" alt="" class="banner-index__img" />
+      </div>
     </section>
-    <!-- //배너 -->
+    <!-- //인덱스 배너 -->
+
+    <section class="banner-index-mobile" style="display: none;">
+      <div>
+        <img src="img/banner-index__mobile1.jpg" alt="인덱스모바일배너" />
+      </div>
+      <div>
+        <img src="img/banner-index__mobile2.jpg" alt="인덱스모바일배너" />
+      </div>
+
+      <div>
+        <img src="img/banner-index__mobile3.jpg" alt="인덱스모바일배너" />
+      </div>
+    </section>
+    <!-- //모바일 인덱스 배너 -->
 
     <div class="container">
       <div class="m_border"></div>
@@ -212,7 +237,7 @@
                   </div>
                 </a>
               </div>
-              <!-- //아이템 -->
+
               <div class="money-tip__list-item--index">
                 <a href="#">
                   <div class="img">
@@ -224,7 +249,7 @@
                   </div>
                 </a>
               </div>
-              <!-- //아이템 -->
+
               <div class="money-tip__list-item--index">
                 <a href="#">
                   <div class="img">
@@ -236,7 +261,7 @@
                   </div>
                 </a>
               </div>
-              <!-- //아이템 -->
+
               <div class="money-tip__list-item--index">
                 <a href="#">
                   <div class="img">
@@ -248,7 +273,7 @@
                   </div>
                 </a>
               </div>
-              <!-- //아이템 -->
+
               <div class="money-tip__list-item--index">
                 <a href="#">
                   <div class="img">
@@ -260,7 +285,6 @@
                   </div>
                 </a>
               </div>
-              <!-- //아이템 -->
             </div>
           </div>
         </div>
@@ -832,6 +856,10 @@
         autoplay: true,
         autoplaySpeed: 1000,
       });
+      $(".banner-index-mobile").slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+      });
 
       $(".money-tip__list--index").slick({
         slidesToShow: 4,
@@ -852,8 +880,8 @@
             breakpoint: 480, //화면 사이즈 768px
             settings: {
               //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-              slidesToShow: 1,
-              slidesToScroll: 0.5,
+              slidesToShow: 2,
+              slidesToScroll: 2,
             },
           },
         ],

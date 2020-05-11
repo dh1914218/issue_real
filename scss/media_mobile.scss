@@ -155,13 +155,28 @@
   }
 
   .banner-index {
-    height: 200px;
-    display: none;
+    // height: 200px;
     .banner-index__black-cover {
       height: 200px !important;
     }
     .desc {
       font-size: 20px;
+    }
+    button {
+      display: none !important;
+    }
+    .banner-index__img {
+      display: none;
+    }
+  }
+
+  .banner-index-mobile {
+    display: block !important;
+    button {
+      display: none !important;
+    }
+    img {
+      display: block;
     }
   }
 

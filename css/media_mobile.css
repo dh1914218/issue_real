@@ -121,15 +121,26 @@
   .add-btn__index button {
     width: 80%;
   }
-  .banner-index {
-    height: 200px;
-    display: none;
-  }
   .banner-index .banner-index__black-cover {
     height: 200px !important;
   }
   .banner-index .desc {
     font-size: 20px;
+  }
+  .banner-index button {
+    display: none !important;
+  }
+  .banner-index .banner-index__img {
+    display: none;
+  }
+  .banner-index-mobile {
+    display: block !important;
+  }
+  .banner-index-mobile button {
+    display: none !important;
+  }
+  .banner-index-mobile img {
+    display: block;
   }
   .trand-issue__index {
     margin-top: 30px;

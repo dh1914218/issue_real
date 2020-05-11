@@ -2,6 +2,10 @@
 
 /*-----배너----*/
 
+.banner-index-mobile {
+  display: none;
+}
+
 .banner-index {
   position: relative;
   button {
@@ -77,6 +81,7 @@
 /*--------돈되는 꿀팁정보---------*/
 .money-tip__index {
   margin-top: 50px;
+  margin-bottom: 50px;
   h1 {
     text-align: center;
     font-size: 30px;
@@ -180,6 +185,38 @@
       font-size: 80px;
     }
   }
+}
+
+.swiper-slide {
+  width: 23%;
+  .thumbnail {
+    img {
+    }
+  }
+  .desc {
+    width: 100%;
+    .tit {
+      width: 100%;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      height: 48px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+    }
+    .author {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #9b9b9b;
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: none !important;
+  font-size: 52px;
 }
 
 /*-----------핫딜있슈-------------*/
