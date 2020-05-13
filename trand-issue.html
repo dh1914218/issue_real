@@ -30,6 +30,8 @@
   <!-- //xeicon -->
 
   <body>
+    <div class="background-black-cover"></div>
+
     <section class="m-nav">
       <div class="m-nav__inner">
         <div class="m-nav__login">
@@ -39,7 +41,11 @@
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">이슈태그</a></li>
+            <li>
+              <a href="trand-issue.html" class="font-color__purple--500"
+                >이슈태그</a
+              >
+            </li>
           </ul>
         </div>
         <!-- //아이템 -->
@@ -88,17 +94,21 @@
         </div>
       </div>
       <div class="header__logo">
-        <a href="index.html">로고입니다</a>
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
       </div>
 
       <nav class="header__nav">
         <ul class="clearfix">
-          <li><a href="#">트랜드있슈 </a></li>
-          <li><a href="#">커뮤니티</a></li>
-          <li><a href="#">돈되는정보</a></li>
-          <li><a href="#">핫딜있슈</a></li>
-          <li><a href="#">공지사항</a></li>
-          <li><a href="#">건의사항</a></li>
+          <li>
+            <a href="trand-issue.html" class="font-color__purple--500"
+              >이슈태그</a
+            >
+          </li>
+          <li><a href="community.html">커뮤니티</a></li>
+          <li><a href="money-tip.html">돈되는정보</a></li>
+          <li><a href="hotdeal-issue.html">핫딜있슈</a></li>
           <li class="header__nav--login"><a href="#">로그인</a></li>
           <li class="header__nav--uerinfo"><a href="#">내정보</a></li>
         </ul>
@@ -110,14 +120,14 @@
       <section class="trand-issue">
         <div class="row">
           <div class="container" style="overflow: hidden;">
-            <div class="aside-test__250x250"></div>
+            <div class="aside__250x250--trand-issue"></div>
             <div class="trand-issue__inner">
               <h1>트랜드 <em>이슈태그</em></h1>
 
               <div class="filter">
                 <ul class="clearfix">
                   <li>
-                    <button>최신순</button>
+                    <button class="font-color__purple--500">최신순</button>
                   </li>
                   <li>
                     <button>인기순</button>
@@ -185,11 +195,11 @@
                   이슈태그 더보기
                 </button>
               </div>
-              <aside class="aside-test__728x90"></aside>
-              <aside class="aside-test__320x100"></aside>
+              <aside class="aside__728x90--trand-issue"></aside>
+              <aside class="aside__320x100--trand-issue"></aside>
             </div>
 
-            <aside class="aside-test__160x600"></aside>
+            <aside class="aside__160x600--trand-issue"></aside>
           </div>
         </div>
       </section>
@@ -212,5 +222,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

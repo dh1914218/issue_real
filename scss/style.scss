@@ -1,5 +1,11 @@
 @import "partial/styles";
 
+/*------actice css-----*/
+.font-color__purple--500 {
+  color: $purple;
+  font-weight: 500;
+}
+
 /*------레이아웃-----*/
 
 body {
@@ -17,6 +23,7 @@ body {
 }
 
 .background-black-cover {
+  display: none;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -95,6 +102,18 @@ body {
   display: none;
 }
 
+.m-back__btn {
+  display: none;
+}
+
+.header__tit {
+  display: none;
+}
+
+.trand-issue__logo {
+  display: none;
+}
+
 /*---------------헤더----------------*/
 .header {
   background-color: #ffffff;
@@ -106,6 +125,12 @@ body {
     float: left;
     margin-left: 100px;
     line-height: 80px;
+    a {
+      img {
+        margin-top: 12px;
+        width: 140px;
+      }
+    }
   }
   .header__nav {
     float: right;

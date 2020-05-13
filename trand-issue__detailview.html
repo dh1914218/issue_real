@@ -34,7 +34,7 @@
       <div class="inner">
         <div class="header">
           <button>
-            <img src="img/ic_share_thin-grey.svg" alt="댓글보기취소" />
+            <img src="img/ic_arrow-left_black.svg" alt="댓글보기취소" />
           </button>
         </div>
 
@@ -125,7 +125,7 @@
       <div class="inner">
         <div class="header">
           <button class="cancel">
-            <img src="img/ic_heart_thin-grey.svg" alt="취소버튼" />
+            <img src="img/ic_arrow-left_black.svg" alt="취소버튼" />
           </button>
           <button class="write">게시하기</button>
         </div>
@@ -198,24 +198,33 @@
 
     <header class="header">
       <div class="row">
-        <div class="m-nav__btn">
+        <div class="m-back__btn">
           <button>
-            <img src="img/ic_nav-btn.svg" alt="네이게이션버튼" />
+            <img src="img/ic_arrow-left_black.svg" alt="" />
           </button>
         </div>
       </div>
-      <div class="header__logo">
-        <a href="index.html">로고입니다</a>
+
+      <div class="header__tit">
+        이슈태그
+      </div>
+
+      <div class="header__logo trand-issue__logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
       </div>
 
       <nav class="header__nav">
         <ul class="clearfix">
-          <li><a href="#">이슈태그</a></li>
-          <li><a href="#">커뮤니티</a></li>
-          <li><a href="#">돈되는정보</a></li>
-          <li><a href="#">핫딜있슈</a></li>
-          <li><a href="#">공지사항</a></li>
-          <li><a href="#">건의사항</a></li>
+          <li>
+            <a href="trand-issue.html" class="font-color__purple--500"
+              >이슈태그</a
+            >
+          </li>
+          <li><a href="community.html">커뮤니티</a></li>
+          <li><a href="money-tip.html">돈되는정보</a></li>
+          <li><a href="hotdeal-issue.html">핫딜있슈</a></li>
           <li class="header__nav--login"><a href="#">로그인</a></li>
           <li class="header__nav--uerinfo"><a href="#">내정보</a></li>
         </ul>
@@ -226,17 +235,19 @@
     <section class="banner-issue-tag">
       <div class="banner__black-cover"></div>
       <div class="banner-issue-tag__tit">
-        "안철수의원 재난지원금 포플리즘 정책비판"
+        <div class="row">
+          "안철수의원 재난지원금 포플리즘 정책비판"
+        </div>
       </div>
     </section>
     <!-- //배너 -->
-
+    header__tit
     <main>
       <section class="trnas-issue-detailveiw__wrap">
         <div class="row">
           <div class="container-2">
-            <div class="aside-trand-issue__detailview__250x250"></div>
-            <div class="aside-trand-issue__detailview__160x600"></div>
+            <div class="aside__250x250--trand-issue__detailview"></div>
+            <div class="aside__160x600--trand-issue__detailview"></div>
 
             <section class="trnas-issue-detailveiw__desc">
               <div class="tit">Descirpt</div>
@@ -298,9 +309,8 @@
             </section>
             <!-- //관련기사 -->
 
-            <aside class="aside-test__320x100 aside__728x90"></aside>
-
-            <aside class="aside-test__728x90 aside__728x90"></aside>
+            <aside class="aside__728x90--trand-issue__detailview"></aside>
+            <aside class="aside__320x100--trand-issue__detailview"></aside>
 
             <section class="trnas-issue-detailveiw__youtube">
               <div class="tit">관련유투브</div>
@@ -391,9 +401,8 @@
             </section>
             <!-- //관련유투브 -->
 
-            <aside class="aside-test__320x100 aside__728x90"></aside>
-
-            <aside class="aside-test__728x90 aside__728x90"></aside>
+            <aside class="aside__728x90--trand-issue__detailview"></aside>
+            <aside class="aside__320x100--trand-issue__detailview"></aside>
 
             <section class="trnas-issue-detailveiw__opinion-vote">
               <div class="btn">
@@ -419,13 +428,16 @@
                 <div class="commnet-btn">
                   <ul class="clearfix">
                     <li>
-                      <button>
-                        <img src="img/ic_nav-btn.svg" alt="글쓰기버튼" />
+                      <button class="commnet-btn__write">
+                        <img src="img/ic_write_purple.svg" alt="글쓰기버튼" />
                       </button>
                     </li>
                     <li>
-                      <button>
-                        <img src="img/ic_nav-btn.svg" alt="공유하기버튼" />
+                      <button class="commnet-btn__share">
+                        <img
+                          src="img/ic_share-2_purple.svg"
+                          alt="공유하기버튼"
+                        />
                       </button>
                     </li>
                   </ul>
@@ -452,10 +464,7 @@
 
                     <div class="like-btn">
                       <button>
-                        <img
-                          src="img/ic_share_thin-grey.svg"
-                          alt="댓글좋아요"
-                        />
+                        <img src="img/ic_header-black.svg" alt="댓글좋아요" />
                         <div>16</div>
                       </button>
                     </div>
@@ -481,10 +490,7 @@
 
                     <div class="like-btn">
                       <button>
-                        <img
-                          src="img/ic_share_thin-grey.svg"
-                          alt="댓글좋아요"
-                        />
+                        <img src="img/ic_header-black.svg" alt="댓글좋아요" />
                         <div>16</div>
                       </button>
                     </div>
@@ -510,10 +516,7 @@
 
                     <div class="like-btn">
                       <button>
-                        <img
-                          src="img/ic_share_thin-grey.svg"
-                          alt="댓글좋아요"
-                        />
+                        <img src="img/ic_header-black.svg" alt="댓글좋아요" />
                         <div>16</div>
                       </button>
                     </div>
@@ -532,8 +535,8 @@
         </div>
       </section>
 
-      <aside class="aside-test__728x90 aside__728x90"></aside>
-      <aside class="aside-test__320x100 aside__728x90"></aside>
+      <aside class="aside__728x90--trand-issue__detailview"></aside>
+      <aside class="aside__320x100--trand-issue__detailview"></aside>
 
       <section class="ad-taboola__index">
         <div class="container">
@@ -566,6 +569,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
       $(".banner-index").slick({
         autoplay: true,

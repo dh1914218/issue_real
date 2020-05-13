@@ -53,16 +53,20 @@
   margin-bottom: 50px;
 }
 
-.add-btn__index button {
+.add-btn__index a {
   color: #ffffff;
+}
+
+.add-btn__index a .inner {
   width: 280px;
   height: 56px;
   line-height: 56px;
   background-color: #6332f6;
   border-radius: 30px;
+  margin: 0 auto;
 }
 
-.add-btn__index button:hover {
+.add-btn__index a .inner:hover {
   opacity: 0.6;
 }
 
@@ -86,7 +90,6 @@
 /*--------돈되는 꿀팁정보---------*/
 .money-tip__index {
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .money-tip__index h1 {
@@ -136,7 +139,6 @@
 
 .money-tip__list--index {
   margin-top: 30px;
-  margin-bottom: 50px;
 }
 
 .money-tip__list--index h1 {

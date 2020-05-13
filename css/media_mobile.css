@@ -23,6 +23,21 @@
     margin-bottom: 10px;
   }
   /*-------aside--------*/
+  /*--none---*/
+  .aside__728x90--index,
+  .aside__160x600--trand-issue,
+  .aside__250x250--trand-issue,
+  .aside__728x90--trand-issue__detailview,
+  .aside__250x250--trand-issue__detailview,
+  .aside__160x600--trand-issue__detailview {
+    display: none;
+  }
+  /*--block--*/
+  .aside__320x100--index,
+  .aside__320x100--trand-issue__detailview {
+    display: block;
+  }
+  /*----*/
   .aside-test__728x90,
   .aside__728x90,
   .aside-test__160x600,
@@ -54,21 +69,51 @@
     width: 24px;
     height: 24px;
   }
+  .header .m-back__btn {
+    display: block;
+    display: inline-block;
+  }
+  .header .m-back__btn button {
+    padding: 20px 0px 10px 0px;
+  }
+  .header .m-back__btn button img {
+    width: 18px;
+    height: 18px;
+  }
   .header nav {
     display: none;
+  }
+  .header .header__tit {
+    display: block;
+    margin-top: 5px;
+    position: absolute;
+    float: none;
+    margin-left: 0;
+    left: 50%;
+    top: 43%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 58px;
+    line-height: 58px;
+    font-size: 18px;
   }
   .header .header__logo {
     position: absolute;
     float: none;
     margin-left: 0;
     left: 50%;
-    top: 50%;
+    top: 43%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+    height: 58px;
+  }
+  .header .header__logo a img {
+    width: 110px;
   }
   /*--------------네비게이션드로어--------------*/
   .m-nav {
-    display: none;
+    display: block;
+    margin-left: -100%;
   }
   .m-nav .m-nav__inner {
     display: block;
@@ -76,7 +121,7 @@
     width: 80%;
     height: 100%;
     background-color: #ffffff;
-    z-index: 30;
+    z-index: 5010;
   }
   .m-nav .m-nav__inner .m-nav__login {
     margin-bottom: 30px;
@@ -99,6 +144,7 @@
   .m-nav .m-nav__inner .m-nav__menu ul li a {
     display: inline-block;
     padding: 10px 20px;
+    width: 100%;
   }
   /*-----------푸터---------------*/
   .footer {
@@ -118,8 +164,8 @@
     margin-bottom: 30px;
     margin-top: 20px !important;
   }
-  .add-btn__index button {
-    width: 80%;
+  .add-btn__index .inner {
+    width: 80% !important;
   }
   .banner-index .banner-index__black-cover {
     height: 200px !important;
@@ -211,9 +257,6 @@
     font-size: 20px;
     margin-bottom: 20px !important;
   }
-  .money-tip__index .money-tip__list--index {
-    margin-bottom: 30px !important;
-  }
   .money-tip__index .money-tip__list--index .money-tip__list-item--index a .desc {
     margin-top: 10px;
   }
@@ -287,6 +330,10 @@
     margin-bottom: 5px;
   }
   /*-------------돈되는 꿀팁정보----------*/
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
   .money-tip {
     margin-top: 30px !important;
   }
@@ -508,6 +555,7 @@
   }
   .banner-issue-tag .banner-issue-tag__tit {
     font-size: 25px;
+    text-align: left;
   }
   .trnas-issue-detailveiw__desc {
     margin-bottom: 10px;
@@ -597,11 +645,11 @@
     margin-top: 30px;
   }
   .trnas-issue-detailveiw__opinion-conmmnet .commnet-btn ul li button {
-    margin-right: 30px;
+    margin-right: 20px;
   }
   .trnas-issue-detailveiw__opinion-conmmnet .commnet-btn ul li button img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
   }
   .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article {
     padding: 10px;
@@ -617,7 +665,7 @@
     height: 100%;
   }
   .pop-up__commnet-write .inner {
-    width: 100%;
+    width: 100vw;
   }
   /*-- 댓글보기 팝업--*/
   .pop-up__commnet-view {

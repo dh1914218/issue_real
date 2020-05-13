@@ -45,20 +45,31 @@
   }
 }
 
+// a {
+//   color: #ffffff;
+//   width: 200px;
+//   &:hover {
+//     opacity: 0.6;
+//   }
+// }
+
 /*--------더보기---------*/
 .add-btn__index {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 50px;
-  button {
+  a {
     color: #ffffff;
-    width: 280px;
-    height: 56px;
-    line-height: 56px;
-    background-color: $purple;
-    border-radius: 30px;
-    &:hover {
-      opacity: 0.6;
+    .inner {
+      width: 280px;
+      height: 56px;
+      line-height: 56px;
+      background-color: $purple;
+      border-radius: 30px;
+      margin: 0 auto;
+      &:hover {
+        opacity: 0.6;
+      }
     }
   }
 }
@@ -81,7 +92,6 @@
 /*--------돈되는 꿀팁정보---------*/
 .money-tip__index {
   margin-top: 50px;
-  margin-bottom: 50px;
   h1 {
     text-align: center;
     font-size: 30px;
@@ -140,7 +150,6 @@
 
 .money-tip__list--index {
   margin-top: 30px;
-  margin-bottom: 50px;
 
   h1 {
     text-align: center;
