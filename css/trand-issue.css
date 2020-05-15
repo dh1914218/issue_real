@@ -332,9 +332,7 @@ article.trand-issue__article:nth-last-of-type(1) {
 
 .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article {
   border: 1px solid #e8e8ed;
-  position: relative;
   margin-bottom: 5px;
-  height: 140px;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,19 +365,13 @@ article.trand-issue__article:nth-last-of-type(1) {
   margin-bottom: 5px;
 }
 
-.trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .desc .cont {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
+.trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .desc .cont img {
+  margin-top: 10px;
+  display: block;
 }
 
 .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .desc .commnet-add-btn {
-  position: absolute;
-  bottom: 0px;
+  margin-top: 10px;
 }
 
 .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .desc .commnet-add-btn button {
@@ -388,10 +380,15 @@ article.trand-issue__article:nth-last-of-type(1) {
 }
 
 .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .like-btn {
-  line-height: 100px;
+  position: relative;
 }
 
 .trnas-issue-detailveiw__opinion-conmmnet .commnet-inner article .like-btn button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   font-size: 14px;
   vertical-align: middle;
 }
@@ -585,11 +582,10 @@ article.trand-issue__article:nth-last-of-type(1) {
 }
 
 .pop-up__commnet-write .inner .pop-up__commnet-write-footer button {
-  line-height: 56px;
-  padding: 0 20px;
+  padding-left: 20px;
 }
 
 .pop-up__commnet-write .inner .pop-up__commnet-write-footer button img {
-  width: 20px;
+  width: 35px;
 }
 /*# sourceMappingURL=trand-issue.css.map */

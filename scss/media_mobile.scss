@@ -38,35 +38,33 @@
   .aside__250x250--trand-issue,
   .aside__728x90--trand-issue__detailview,
   .aside__250x250--trand-issue__detailview,
-  .aside__160x600--trand-issue__detailview {
+  .aside__160x600--trand-issue__detailview,
+  .aside__728x90--community,
+  .aside__160x600--cum-r,
+  .aside__160x600--cum-l,
+  .aside__728x90--money,
+  .aside__160x600--money-l,
+  .aside__160x600--money-r,
+  .aside__728x90--hot-deal,
+  .aside__160x600--hot-deal-l,
+  .aside__160x600--hot-deal-r {
     display: none;
   }
 
   /*--block--*/
   .aside__320x100--index,
-  .aside__320x100--trand-issue__detailview {
-    display: block;
-  }
-
-  /*----*/
-
-  .aside-test__728x90,
-  .aside__728x90,
-  .aside-test__160x600,
-  .aside-test__250x250,
-  .aside-test__160x600--cum-r,
-  .aside-test__160x600--cum-l,
-  .aside-trand-issue__detailview__160x600,
-  .aside-trand-issue__detailview__250x250 {
-    display: none;
-  }
-
-  .aside-test__320x100,
-  .aside__320x100 {
+  .aside__320x100--trand-issue__detailview,
+  .aside__320x100--community,
+  .aside__320x100--money,
+  .aside__320x100--hot-deal {
     display: block;
   }
 
   /*---------------헤더-------------*/
+  .trand-issue__logo {
+    display: none;
+  }
+
   .header {
     width: 100% !important;
     height: 58px;
@@ -621,7 +619,7 @@
 
   /*-------------커뮤니티--------------*/
   .community {
-    margin-top: 30px !important;
+    margin-top: 5px !important;
   }
 
   .community__inner {
@@ -650,7 +648,7 @@
     }
 
     .filter {
-      margin-top: 0px !important;
+      margin-top: 0px;
       margin-bottom: 10px;
       ul {
         li {
@@ -660,11 +658,12 @@
           }
         }
         li.btn {
+          margin-top: 8px;
           float: right;
           button {
             // margin-top: -15px;
             img {
-              width: 20px !important;
+              width: 30px !important;
             }
           }
         }
@@ -684,7 +683,7 @@
   /*-----커뮤니티 디테일뷰-----*/
 
   .community-detailview {
-    margin-top: -20px !important;
+    margin-top: 0px !important;
   }
   .community-detailview__header {
     .tit {
@@ -712,6 +711,18 @@
 
   .community-detailview__commnet article .article-sub {
     padding: 20px 20px 20px 50px !important;
+  }
+
+  /*-----------커뮤니티 글쓰기---------*/
+  .community-write__inner {
+    width: 100% !important;
+
+    .btn {
+      button {
+        // margin-top: 10px;
+        width: 40% !important;
+      }
+    }
   }
 
   /*----------트랜드이슈 디테일뷰------------*/
@@ -849,10 +860,10 @@
     .commnet-inner {
       article {
         padding: 10px;
-        height: 120px;
+        // height: 120px;
 
         .desc {
-          margin-right: 15px;
+          margin-right: 25px;
         }
       }
     }
@@ -860,6 +871,7 @@
 
   /*----팝업----*/
   /*-- 글쓰기 팝업---*/
+
   .pop-up__commnet-write {
     width: 100%;
     height: 100%;
@@ -874,6 +886,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
+    position: absolute;
     .inner {
       width: 100%;
       height: 100%;

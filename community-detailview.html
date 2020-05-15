@@ -31,6 +31,8 @@
   <!-- //xeicon -->
 
   <body>
+    <div class="background-black-cover"></div>
+
     <section class="m-nav">
       <div class="m-nav__inner">
         <div class="m-nav__login">
@@ -40,7 +42,7 @@
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">이슈태그</a></li>
+            <li><a href="trand-issue.html">이슈태그</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
@@ -48,31 +50,26 @@
         <div class="m-nav__menu">
           커뮤니티
           <ul>
-            <li><a href="#">유머 / 짤방</a></li>
-            <li><a href="#">자유 / 경제</a></li>
+            <li>
+              <a href="community.html" class="font-color__purple--500"
+                >유머 / 짤방</a
+              >
+            </li>
+            <li><a href="community.html">자유 / 경제</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">돈되는정보</a></li>
+            <li><a href="money-tip.html">돈되는정보</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">핫딜있쓔</a></li>
-          </ul>
-        </div>
-        <!-- //아이템 -->
-
-        <div class="m-nav__menu">
-          기타
-          <ul>
-            <li><a href="#">공지사항</a></li>
-            <li><a href="#">건의사항</a></li>
+            <li><a href="hotdeal-issue.html">핫딜있쓔</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
@@ -89,17 +86,21 @@
         </div>
       </div>
       <div class="header__logo">
-        <a href="index.html">로고입니다</a>
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
       </div>
 
       <nav class="header__nav">
         <ul class="clearfix">
-          <li><a href="#">트랜드있슈 </a></li>
-          <li><a href="#">커뮤니티</a></li>
-          <li><a href="#">돈되는정보</a></li>
-          <li><a href="#">핫딜있슈</a></li>
-          <li><a href="#">공지사항</a></li>
-          <li><a href="#">건의사항</a></li>
+          <li><a href="trand-issue.html">이슈태그</a></li>
+          <li>
+            <a href="community.html" class="font-color__purple--500"
+              >커뮤니티</a
+            >
+          </li>
+          <li><a href="money-tip.html">돈되는정보</a></li>
+          <li><a href="hotdeal-issue.html">핫딜있슈</a></li>
           <li class="header__nav--login"><a href="#">로그인</a></li>
           <li class="header__nav--uerinfo"><a href="#">내정보</a></li>
         </ul>
@@ -110,7 +111,7 @@
     <main>
       <section class="community">
         <div class="container" style="position: relative;">
-          <aside class="aside-test__160x600--cum-l"></aside>
+          <aside class="aside__160x600--cum-l"></aside>
 
           <div class="community__inner">
             <section class="community-detailview">
@@ -141,8 +142,8 @@
                     <p>
                       글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다글내용입니다
                     </p>
-                    <aside class="aside-test__728x90"></aside>
-                    <aside class="aside-test__320x100"></aside>
+                    <aside class="aside__728x90--community"></aside>
+                    <aside class="aside__320x100--community"></aside>
                   </div>
                 </div>
               </div>
@@ -150,11 +151,11 @@
 
             <div class="community-detailview__btn">
               <button class="like">
-                <img src="img/ic_heart_thin-grey.svg" alt="공감하기" />
+                <img src="img/ic_heart_black.svg" alt="공감하기" />
                 <span>100</span>
               </button>
               <button class="commnet">
-                <img src="img/ic_heart_thin-grey.svg" alt="댓글" />
+                <img src="img/ic_chat_black.svg" alt="댓글" />
                 <span>100</span>
               </button>
             </div>
@@ -271,8 +272,8 @@
                 <!-- //아티클 서브 -->
               </article>
             </div>
-            <aside class="aside-test__728x90"></aside>
-            <aside class="aside-test__320x100"></aside>
+            <aside class="aside__728x90--community"></aside>
+            <aside class="aside__320x100--community"></aside>
 
             <div class="community__cont">
               <article class="community__article">
@@ -292,7 +293,7 @@
                 </div>
 
                 <div class="img">
-                  <a href="#">
+                  <a href="community-detailview.html">
                     <img src="img/banner-index.jpg" alt="썸네일" />
                   </a>
                 </div>
@@ -327,14 +328,17 @@
               <ul class="clearfix">
                 <li>
                   <button class="prev">
-                    <img src="img/ic_share_thin-grey.svg" alt="이전페이지로" />
+                    <img src="img/ic_arrow-left_black.svg" alt="이전페이지로" />
                     <span>이전</span>
                   </button>
                 </li>
                 <li>
                   <button class="next">
                     <span>다음</span>
-                    <img src="img/ic_share_thin-grey.svg" alt="이전페이지로" />
+                    <img
+                      src="img/ic_arrow-right_black.svg"
+                      alt="이전페이지로"
+                    />
                   </button>
                 </li>
               </ul>
@@ -344,7 +348,7 @@
               <ul class="claerfix">
                 <li class="prev">
                   <button>
-                    <img src="img/ic_share_thin-grey.svg" alt="이전" />
+                    <img src="img/ic_arrow-left_black.svg" alt="이전" />
                   </button>
                 </li>
                 <li>
@@ -379,17 +383,17 @@
                 </li>
                 <li class="next">
                   <button>
-                    <img src="img/ic_share_thin-grey.svg" alt="다음" />
+                    <img src="img/ic_arrow-right_black.svg" alt="다음" />
                   </button>
                 </li>
               </ul>
             </div>
             <!-- //페이지네이션 __ 모바일에선 5개씩 나오게할 것 -->
-            <aside class="aside-test__728x90"></aside>
-            <aside class="aside-test__320x100"></aside>
+            <aside class="aside__728x90--community"></aside>
+            <aside class="aside__320x100--community"></aside>
           </div>
           <!-- //커뮤니티 이너 -->
-          <aside class="aside-test__160x600--cum-r"></aside>
+          <aside class="aside__160x600--cum-r"></aside>
         </div>
       </section>
     </main>
@@ -411,5 +415,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

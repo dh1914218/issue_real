@@ -31,6 +31,8 @@
   <!-- //xeicon -->
 
   <body>
+    <div class="background-black-cover"></div>
+
     <section class="m-nav">
       <div class="m-nav__inner">
         <div class="m-nav__login">
@@ -40,7 +42,7 @@
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">이슈태그</a></li>
+            <li><a href="trand-issue.html">이슈태그</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
@@ -48,31 +50,28 @@
         <div class="m-nav__menu">
           커뮤니티
           <ul>
-            <li><a href="#">유머 / 짤방</a></li>
-            <li><a href="#">자유 / 경제</a></li>
+            <li>
+              <a href="community.html">유머 / 짤방</a>
+            </li>
+            <li><a href="community.html">자유 / 경제</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">돈되는정보</a></li>
+            <li>
+              <a href="money-tip.html" class="font-color__purple--500"
+                >돈되는정보</a
+              >
+            </li>
           </ul>
         </div>
         <!-- //아이템 -->
 
         <div class="m-nav__menu">
           <ul>
-            <li><a href="#">핫딜있쓔</a></li>
-          </ul>
-        </div>
-        <!-- //아이템 -->
-
-        <div class="m-nav__menu">
-          기타
-          <ul>
-            <li><a href="#">공지사항</a></li>
-            <li><a href="#">건의사항</a></li>
+            <li><a href="hotdeal-issue.html">핫딜있쓔</a></li>
           </ul>
         </div>
         <!-- //아이템 -->
@@ -89,17 +88,23 @@
         </div>
       </div>
       <div class="header__logo">
-        <a href="index.html">로고입니다</a>
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
       </div>
 
       <nav class="header__nav">
         <ul class="clearfix">
-          <li><a href="#">트랜드있슈 </a></li>
-          <li><a href="#">커뮤니티</a></li>
-          <li><a href="#">돈되는정보</a></li>
-          <li><a href="#">핫딜있슈</a></li>
-          <li><a href="#">공지사항</a></li>
-          <li><a href="#">건의사항</a></li>
+          <li><a href="trand-issue.html">이슈태그</a></li>
+          <li>
+            <a href="community.html">커뮤니티</a>
+          </li>
+          <li>
+            <a href="money-tip.html" class="font-color__purple--500"
+              >돈되는정보</a
+            >
+          </li>
+          <li><a href="hotdeal-issue.html">핫딜있슈</a></li>
           <li class="header__nav--login"><a href="#">로그인</a></li>
           <li class="header__nav--uerinfo"><a href="#">내정보</a></li>
         </ul>
@@ -111,7 +116,7 @@
       <section class="money-tip">
         <div class="row">
           <div class="container" style="position: relative;">
-            <aside class="aside-test__160x600--cum-l"></aside>
+            <aside class="aside__160x600--money-l"></aside>
 
             <div class="money-tip__inner">
               <section class="community-live">
@@ -120,7 +125,7 @@
                     <div class="tit">
                       실시간 커뮤니티
                       <div class="add-text">
-                        <a href="#">
+                        <a href="community.html">
                           더보기
                         </a>
                       </div>
@@ -169,14 +174,14 @@
               </section>
               <!-- //실시간커뮤니티 -->
 
-              <aside class="aside-test__320x100"></aside>
+              <aside class="aside__320x100--money"></aside>
 
-              <aside class="aside-test__728x90"></aside>
+              <aside class="aside__728x90--money"></aside>
 
               <div class="moeny-tip__list">
                 <ul class="clearfix">
                   <li>
-                    <a href="#">
+                    <a href="money-tip__detailview.html">
                       <div class="img">
                         <img
                           src="img/money-tip.png"
@@ -249,7 +254,7 @@
                 <ul class="claerfix">
                   <li class="prev">
                     <button>
-                      <img src="img/ic_share_thin-grey.svg" alt="이전" />
+                      <img src="img/ic_arrow-left_black.svg" alt="이전" />
                     </button>
                   </li>
                   <li>
@@ -284,16 +289,16 @@
                   </li>
                   <li class="next">
                     <button>
-                      <img src="img/ic_share_thin-grey.svg" alt="다음" />
+                      <img src="img/ic_arrow-right_black.svg" alt="다음" />
                     </button>
                   </li>
                 </ul>
               </div>
               <!-- //페이지네이션 __ 모바일에선 5개씩 나오게할 것 -->
-              <aside class="aside-test__728x90"></aside>
-              <aside class="aside-test__320x100"></aside>
+              <aside class="aside__728x90--money"></aside>
+              <aside class="aside__320x100--money"></aside>
             </div>
-            <aside class="aside-test__160x600--cum-r"></aside>
+            <aside class="aside__160x600--money-r"></aside>
           </div>
         </div>
       </section>
@@ -316,5 +321,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

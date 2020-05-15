@@ -2,13 +2,19 @@
 /*--none--*/
 .aside__320x100--index,
 .aside__320x100--trand-issue,
-.aside__320x100--trand-issue__detailview {
+.aside__320x100--trand-issue__detailview,
+.aside__320x100--community,
+.aside__320x100--money,
+.aside__320x100--hot-deal {
   display: none;
 }
 
 .aside__728x90--index,
 .aside__728x90--trand-issue,
-.aside__728x90--trand-issue__detailview {
+.aside__728x90--trand-issue__detailview,
+.aside__728x90--community,
+.aside__728x90--money,
+.aside__728x90--hot-deal {
   margin: 0 auto;
   width: 728px;
   height: 90px;
@@ -17,11 +23,36 @@
 
 .aside__320x100--index,
 .aside__320x100--trand-issue,
-.aside__320x100--trand-issue__detailview {
+.aside__320x100--trand-issue__detailview,
+.aside__320x100--community,
+.aside__320x100--money,
+.aside__320x100--hot-deal {
   margin: 0 auto;
   width: 320px;
   height: 100px;
   background-color: hotpink;
+}
+
+.aside__160x600--cum-l,
+.aside__160x600--money-l,
+.aside__160x600--hot-deal-l {
+  float: left;
+  width: 160px;
+  height: 600px;
+  background-color: hotpink;
+  margin-right: 20px !important;
+}
+
+.aside__160x600--cum-r,
+.aside__160x600--money-r,
+.aside__160x600--hot-deal-r {
+  position: absolute;
+  width: 160px;
+  height: 600px;
+  background-color: hotpink;
+  margin-right: 20px !important;
+  top: 0;
+  right: -200px;
 }
 
 /*--이슈태그--*/
@@ -62,47 +93,6 @@
   right: -200px;
 }
 
+/*--------핫딜있슈----------*/
 /*--------------------------*/
-.aside__320x100 {
-  display: none;
-}
-
-.aside-test__320x100 {
-  display: none;
-}
-
-.aside-test__250x250 {
-  float: left;
-  width: 250px;
-  height: 250px;
-  background-color: hotpink;
-  margin-right: 20px;
-  margin-top: 200px;
-}
-
-.aside-test__160x600 {
-  float: right;
-  width: 160px;
-  height: 600px;
-  background-color: hotpink;
-  margin-top: 200px;
-}
-
-.aside-test__160x600--cum-l {
-  float: left;
-  width: 160px;
-  height: 600px;
-  background-color: hotpink;
-  margin-right: 20px !important;
-}
-
-.aside-test__160x600--cum-r {
-  position: absolute;
-  width: 160px;
-  height: 600px;
-  background-color: hotpink;
-  margin-right: 20px !important;
-  top: 0;
-  right: -200px;
-}
 /*# sourceMappingURL=aside.css.map */
