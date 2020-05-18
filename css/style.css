@@ -105,13 +105,9 @@ body {
   padding: 0 10px;
 }
 
-.pagination ul li button {
-  vertical-align: middle;
-  padding: 0 10px;
-}
-
-.pagination ul li button img {
+.pagination ul li a img {
   width: 16px;
+  vertical-align: middle;
 }
 
 .pagination.other {
