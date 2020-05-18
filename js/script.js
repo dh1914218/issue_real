@@ -53,3 +53,5 @@ $(".pop-up__commnet-view .pop-up__header button").click(function () {
   $(".pop-up__commnet-view").hide();
   $(".background-black-cover").hide();
 });
+
+$(".commnet-article").scrollTop($(".commnet-article")[0].scrollHeight);
