@@ -289,10 +289,13 @@
 
 .community-detailview__commnet article .article-main {
   padding: 20px;
+  border-bottom: 1px solid #e8e8de;
+}
+
+.community-detailview__commnet article .article-main .article-main__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #e8e8de;
 }
 
 .community-detailview__commnet article .article-main .profile-img {

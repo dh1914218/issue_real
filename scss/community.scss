@@ -271,9 +271,10 @@
   article {
     .article-main {
       padding: 20px;
-      display: flex;
       border-bottom: 1px solid #e8e8de;
-
+      .article-main__inner {
+        display: flex;
+      }
       .profile-img {
         margin-right: 8px;
         flex: 1;
