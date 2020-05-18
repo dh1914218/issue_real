@@ -552,23 +552,27 @@ article.trand-issue__article:nth-last-of-type(1) {
   width: 730px;
 }
 
-.pop-up__commnet-write .inner .header {
+.pop-up__commnet-write .inner .pop-up__header {
   height: 56px;
+  border-bottom: 1px solid #6332f6;
+  z-index: 10;
 }
 
-.pop-up__commnet-write .inner .header button.cancel {
-  height: 56px;
+.pop-up__commnet-write .inner .pop-up__header button.cancel {
+  margin-top: 18px;
   padding: 0 20px;
+  background-color: transparent !important;
 }
 
-.pop-up__commnet-write .inner .header button.cancel img {
+.pop-up__commnet-write .inner .pop-up__header button.cancel img {
   width: 20px;
   height: 20px;
 }
 
-.pop-up__commnet-write .inner .header button.write {
+.pop-up__commnet-write .inner .pop-up__header button.write {
+  background-color: transparent !important;
   padding: 0 20px;
-  height: 56px;
+  margin-top: 18px;
   float: right;
   color: #6332f6;
   font-weight: 500;

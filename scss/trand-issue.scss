@@ -535,11 +535,14 @@ article.trand-issue__article:nth-last-of-type(1) {
   .inner {
     width: 730px;
 
-    .header {
+    .pop-up__header {
       height: 56px;
+      border-bottom: 1px solid $purple;
+      z-index: 10;
       button.cancel {
-        height: 56px;
+        margin-top: 18px;
         padding: 0 20px;
+        background-color: transparent !important;
 
         img {
           width: 20px;
@@ -547,9 +550,10 @@ article.trand-issue__article:nth-last-of-type(1) {
         }
       }
       button.write {
-        padding: 0 20px;
+        background-color: transparent !important;
 
-        height: 56px;
+        padding: 0 20px;
+        margin-top: 18px;
 
         float: right;
         color: $purple;
