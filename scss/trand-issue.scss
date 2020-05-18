@@ -422,12 +422,12 @@ article.trand-issue__article:nth-last-of-type(1) {
   left: 50%;
   .inner {
     width: 730px;
-    .header {
+    .pop-up__header {
       height: 56px;
       border-bottom: 1px solid $purple;
       button {
-        line-height: 56px;
-        padding: 0 20px;
+        margin-top: 20px;
+        margin-left: 20px;
         img {
           width: 20px;
           height: 20px;
@@ -466,6 +466,9 @@ article.trand-issue__article:nth-last-of-type(1) {
 
       .commnet {
         border-bottom: 1px solid #e8e8ed;
+        overflow: auto;
+        height: 400px;
+        -ms-overflow-style: none;
 
         .commnet-article {
           display: flex;
@@ -492,6 +495,9 @@ article.trand-issue__article:nth-last-of-type(1) {
             }
           }
         }
+      }
+      .commnet::-webkit-scrollbar {
+        display: none !important;
       }
     }
 

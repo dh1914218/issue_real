@@ -26,6 +26,7 @@ $(".background-black-cover").click(function () {
     "margin-left": "-100%",
   });
   $(".pop-up__commnet-write").hide();
+  $(".pop-up__commnet-view").hide();
 });
 
 /*--------이슈태그 디테일뷰--------*/
@@ -39,5 +40,16 @@ $(".commnet-btn__write").click(function () {
 // 이슈태그 글쓰기레이어 팝업에서 취소버튼 눌렀을시
 $(".pop-up__commnet-write .cancel").click(function () {
   $(".pop-up__commnet-write").hide();
+  $(".background-black-cover").hide();
+});
+
+// 이슈태그 댓글보기 클릭시 팝업창 생성
+$(".commnet-add-btn").click(function () {
+  $(".pop-up__commnet-view").show();
+  $(".background-black-cover").show();
+});
+
+$(".pop-up__commnet-view .pop-up__header button").click(function () {
+  $(".pop-up__commnet-view").hide();
   $(".background-black-cover").hide();
 });
