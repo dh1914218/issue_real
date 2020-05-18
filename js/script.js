@@ -10,6 +10,28 @@ $(window).scroll(function () {
   }
 });
 
+$(document).ready(function () {
+  var jbOffset = $(".aside").offset();
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > jbOffset.top) {
+      $(".aside").addClass("aside-fixed");
+    } else {
+      $(".aside").removeClass("aside-fixed");
+    }
+  });
+});
+
+// var aside = $(".aside").offset().top;
+// $(windon).scroll(function () {
+//   var window = $(this).scrollTop();
+
+//   if (aside <= window) {
+//     $(".aside").addClass("fixed");
+//   } else {
+//     $(".aside").removeClass("fixed");
+//   }
+// });
+
 $(".m-nav__btn").click(function () {
   $(".m-nav").animate({
     "margin-left": 0,
