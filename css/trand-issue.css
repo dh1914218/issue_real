@@ -403,7 +403,7 @@ article.trand-issue__article:nth-last-of-type(1) {
 
 /*---------------팝업--------------*/
 .pop-up__commnet-view {
-  display: none;
+  display: blocks;
   background-color: #ffffff;
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
@@ -469,8 +469,7 @@ article.trand-issue__article:nth-last-of-type(1) {
 
 .pop-up__commnet-view .inner .cont .commnet {
   border-bottom: 1px solid #e8e8ed;
-  overflow: auto;
-  height: 400px;
+  overflow: scroll;
   -ms-overflow-style: none;
 }
 
@@ -520,6 +519,7 @@ article.trand-issue__article:nth-last-of-type(1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 1px solid #e8e8ed;
 }
 
 .pop-up__commnet-view .inner .commnet-write .inner textarea {
