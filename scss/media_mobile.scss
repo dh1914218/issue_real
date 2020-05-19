@@ -709,7 +709,9 @@
     margin-top: 10px !important;
   }
 
-  .community-detailview__commnet article .article-sub {
+  .community-detailview__commnet article .article-sub__wrap,
+  .article-sub__wrtie,
+  .article-main__wrtie {
     padding: 20px 20px 20px 50px !important;
   }
 

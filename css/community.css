@@ -287,25 +287,19 @@
   margin-bottom: 10px;
 }
 
-.community-detailview__commnet article .article-main {
+.community-detailview__commnet article .article-main .article-main__wrap {
   padding: 20px;
   border-bottom: 1px solid #e8e8de;
 }
 
-.community-detailview__commnet article .article-main .article-main__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.community-detailview__commnet article .article-main .profile-img {
+.community-detailview__commnet article .article-main .article-main__wrap .profile-img {
   margin-right: 8px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.community-detailview__commnet article .article-main .profile-img img {
+.community-detailview__commnet article .article-main .article-main__wrap .profile-img img {
   vertical-align: middle;
   width: 32px;
   height: 32px;
@@ -315,36 +309,61 @@
   border: 1px solid #e8e8ed;
 }
 
-.community-detailview__commnet article .article-main .desc {
+.community-detailview__commnet article .article-main .article-main__wrap .desc {
   vertical-align: middle;
   width: 100%;
 }
 
-.community-detailview__commnet article .article-main .desc .user-name {
+.community-detailview__commnet article .article-main .article-main__wrap .desc .user-name {
   font-size: 14px;
   font-weight: 500;
 }
 
-.community-detailview__commnet article .article-main .desc .cont {
+.community-detailview__commnet article .article-main .article-main__wrap .desc .cont {
   font-size: 14px;
   margin-top: 8px;
 }
 
-.community-detailview__commnet article .article-main .btn {
+.community-detailview__commnet article .article-main .article-main__wrap .btn {
   margin-top: 8px;
 }
 
-.community-detailview__commnet article .article-main .btn button {
+.community-detailview__commnet article .article-main .article-main__wrap .btn button {
   font-size: 14px;
   margin-right: 12px;
   color: #9b9b9b;
 }
 
-.community-detailview__commnet article .article-main .btn button em {
+.community-detailview__commnet article .article-main .article-main__wrap .btn button em {
   margin-left: 4px;
 }
 
-.community-detailview__commnet article .article-sub {
+.community-detailview__commnet article .article-main .article-main__wrtie {
+  padding: 20px 20px 20px 72px;
+  border-bottom: 1px solid #e8e8de;
+  background-color: #f8f9fa;
+}
+
+.community-detailview__commnet article .article-main .article-main__wrtie .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e8e8ed;
+}
+
+.community-detailview__commnet article .article-main .article-main__wrtie .inner textarea {
+  border: none;
+  width: 100%;
+  padding: 20px 15px 0px 10px;
+  overflow: hidden;
+}
+
+.community-detailview__commnet article .article-main .article-main__wrtie .inner button {
+  color: #6332f6;
+  width: 100px;
+}
+
+.community-detailview__commnet article .article-sub .article-sub__wrap {
   padding: 20px 20px 20px 72px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,14 +372,14 @@
   background-color: #f8f9fa;
 }
 
-.community-detailview__commnet article .article-sub .profile-img {
+.community-detailview__commnet article .article-sub .article-sub__wrap .profile-img {
   margin-right: 8px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.community-detailview__commnet article .article-sub .profile-img img {
+.community-detailview__commnet article .article-sub .article-sub__wrap .profile-img img {
   vertical-align: middle;
   width: 32px;
   height: 32px;
@@ -370,34 +389,59 @@
   border: 1px solid #e8e8ed;
 }
 
-.community-detailview__commnet article .article-sub .desc {
+.community-detailview__commnet article .article-sub .article-sub__wrap .desc {
   vertical-align: middle;
   width: 100%;
 }
 
-.community-detailview__commnet article .article-sub .desc .user-name {
+.community-detailview__commnet article .article-sub .article-sub__wrap .desc .user-name {
   font-size: 14px;
   font-weight: 500;
 }
 
-.community-detailview__commnet article .article-sub .desc .cont {
+.community-detailview__commnet article .article-sub .article-sub__wrap .desc .cont {
   font-size: 14px;
   margin-top: 8px;
 }
 
-.community-detailview__commnet article .article-sub .btn {
+.community-detailview__commnet article .article-sub .article-sub__wrap .btn {
   margin-top: 8px;
 }
 
-.community-detailview__commnet article .article-sub .btn button {
+.community-detailview__commnet article .article-sub .article-sub__wrap .btn button {
   background-color: #f8f9fa;
   font-size: 14px;
   margin-right: 12px;
   color: #9b9b9b;
 }
 
-.community-detailview__commnet article .article-sub .btn button em {
+.community-detailview__commnet article .article-sub .article-sub__wrap .btn button em {
   margin-left: 4px;
+}
+
+.community-detailview__commnet article .article-sub .article-sub__wrtie {
+  padding: 20px 20px 20px 72px;
+  border-bottom: 1px solid #e8e8de;
+  background-color: #f8f9fa;
+}
+
+.community-detailview__commnet article .article-sub .article-sub__wrtie .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e8e8ed;
+}
+
+.community-detailview__commnet article .article-sub .article-sub__wrtie .inner textarea {
+  border: none;
+  width: 100%;
+  padding: 20px 15px 0px 10px;
+  overflow: hidden;
+}
+
+.community-detailview__commnet article .article-sub .article-sub__wrtie .inner button {
+  color: #6332f6;
+  width: 100px;
 }
 
 .article-sub:nth-last-of-type(1) {

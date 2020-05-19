@@ -270,89 +270,132 @@
   margin-bottom: 10px;
   article {
     .article-main {
-      padding: 20px;
-      border-bottom: 1px solid #e8e8de;
-      .article-main__inner {
-        display: flex;
-      }
-      .profile-img {
-        margin-right: 8px;
-        flex: 1;
-        img {
+      .article-main__wrap {
+        padding: 20px;
+        border-bottom: 1px solid #e8e8de;
+        .profile-img {
+          margin-right: 8px;
+          flex: 1;
+          img {
+            vertical-align: middle;
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid #e8e8ed;
+          }
+        }
+        .desc {
           vertical-align: middle;
-          width: 32px;
-          height: 32px;
-          object-fit: cover;
-          border-radius: 50%;
-          border: 1px solid #e8e8ed;
+          width: 100%;
+          .user-name {
+            font-size: 14px;
+            font-weight: 500;
+          }
+          .cont {
+            font-size: 14px;
+            margin-top: 8px;
+          }
         }
-      }
-      .desc {
-        vertical-align: middle;
-        width: 100%;
-        .user-name {
-          font-size: 14px;
-          font-weight: 500;
-        }
-        .cont {
-          font-size: 14px;
+
+        .btn {
           margin-top: 8px;
+
+          button {
+            font-size: 14px;
+            margin-right: 12px;
+            color: #9b9b9b;
+            em {
+              margin-left: 4px;
+            }
+          }
         }
       }
 
-      .btn {
-        margin-top: 8px;
+      .article-main__wrtie {
+        padding: 20px 20px 20px 72px;
+        border-bottom: 1px solid #e8e8de;
+        background-color: #f8f9fa;
+        .inner {
+          display: flex;
+          border: 1px solid #e8e8ed;
 
-        button {
-          font-size: 14px;
-          margin-right: 12px;
-          color: #9b9b9b;
-          em {
-            margin-left: 4px;
+          textarea {
+            border: none;
+            width: 100%;
+            padding: 20px 15px 0px 10px;
+            overflow: hidden;
+          }
+          button {
+            color: $purple;
+            width: 100px;
           }
         }
       }
     }
 
     .article-sub {
-      padding: 20px 20px 20px 72px;
-      display: flex;
-      border-bottom: 1px solid #e8e8de;
-      background-color: #f8f9fa;
-      .profile-img {
-        margin-right: 8px;
-        flex: 1;
-        img {
+      .article-sub__wrap {
+        padding: 20px 20px 20px 72px;
+        display: flex;
+        border-bottom: 1px solid #e8e8de;
+        background-color: #f8f9fa;
+        .profile-img {
+          margin-right: 8px;
+          flex: 1;
+          img {
+            vertical-align: middle;
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid #e8e8ed;
+          }
+        }
+        .desc {
           vertical-align: middle;
-          width: 32px;
-          height: 32px;
-          object-fit: cover;
-          border-radius: 50%;
-          border: 1px solid #e8e8ed;
+          width: 100%;
+          .user-name {
+            font-size: 14px;
+            font-weight: 500;
+          }
+          .cont {
+            font-size: 14px;
+            margin-top: 8px;
+          }
         }
-      }
-      .desc {
-        vertical-align: middle;
-        width: 100%;
-        .user-name {
-          font-size: 14px;
-          font-weight: 500;
-        }
-        .cont {
-          font-size: 14px;
+        .btn {
           margin-top: 8px;
+          button {
+            background-color: #f8f9fa;
+
+            font-size: 14px;
+            margin-right: 12px;
+            color: #9b9b9b;
+            em {
+              margin-left: 4px;
+            }
+          }
         }
       }
-      .btn {
-        margin-top: 8px;
-        button {
-          background-color: #f8f9fa;
 
-          font-size: 14px;
-          margin-right: 12px;
-          color: #9b9b9b;
-          em {
-            margin-left: 4px;
+      .article-sub__wrtie {
+        padding: 20px 20px 20px 72px;
+        border-bottom: 1px solid #e8e8de;
+        background-color: #f8f9fa;
+        .inner {
+          display: flex;
+          border: 1px solid #e8e8ed;
+
+          textarea {
+            border: none;
+            width: 100%;
+            padding: 20px 15px 0px 10px;
+            overflow: hidden;
+          }
+          button {
+            color: $purple;
+            width: 100px;
           }
         }
       }
