@@ -288,6 +288,9 @@
 }
 
 .community-detailview__commnet article .article-main .article-main__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 20px;
   border-bottom: 1px solid #e8e8de;
 }
@@ -338,27 +341,27 @@
   margin-left: 4px;
 }
 
-.community-detailview__commnet article .article-main .article-main__wrtie {
+.community-detailview__commnet article .article-main .article-main__write {
   padding: 20px 20px 20px 72px;
   border-bottom: 1px solid #e8e8de;
   background-color: #f8f9fa;
 }
 
-.community-detailview__commnet article .article-main .article-main__wrtie .inner {
+.community-detailview__commnet article .article-main .article-main__write .inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #e8e8ed;
 }
 
-.community-detailview__commnet article .article-main .article-main__wrtie .inner textarea {
+.community-detailview__commnet article .article-main .article-main__write .inner textarea {
   border: none;
   width: 100%;
   padding: 20px 15px 0px 10px;
   overflow: hidden;
 }
 
-.community-detailview__commnet article .article-main .article-main__wrtie .inner button {
+.community-detailview__commnet article .article-main .article-main__write .inner button {
   color: #6332f6;
   width: 100px;
 }
@@ -419,27 +422,27 @@
   margin-left: 4px;
 }
 
-.community-detailview__commnet article .article-sub .article-sub__wrtie {
+.community-detailview__commnet article .article-sub .article-sub__write {
   padding: 20px 20px 20px 72px;
   border-bottom: 1px solid #e8e8de;
   background-color: #f8f9fa;
 }
 
-.community-detailview__commnet article .article-sub .article-sub__wrtie .inner {
+.community-detailview__commnet article .article-sub .article-sub__write .inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #e8e8ed;
 }
 
-.community-detailview__commnet article .article-sub .article-sub__wrtie .inner textarea {
+.community-detailview__commnet article .article-sub .article-sub__write .inner textarea {
   border: none;
   width: 100%;
   padding: 20px 15px 0px 10px;
   overflow: hidden;
 }
 
-.community-detailview__commnet article .article-sub .article-sub__wrtie .inner button {
+.community-detailview__commnet article .article-sub .article-sub__write .inner button {
   color: #6332f6;
   width: 100px;
 }
