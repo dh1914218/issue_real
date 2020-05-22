@@ -58,12 +58,14 @@ $(".background-black-cover").click(function () {
 $(".commnet-btn__write").click(function () {
   $(".pop-up__commnet-write").show();
   $(".background-black-cover").show();
+  $("body").css("overflow", "hidden");
 });
 
 // 이슈태그 글쓰기레이어 팝업에서 취소버튼 눌렀을시
 $(".pop-up__commnet-write .cancel").click(function () {
   $(".pop-up__commnet-write").hide();
   $(".background-black-cover").hide();
+  $("body").css("overflow", "visible");
 });
 
 // 이슈태그 댓글보기 클릭시 팝업창 생성
