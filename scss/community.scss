@@ -37,7 +37,7 @@
   }
 
   .filter {
-    margin-top: 15px;
+    margin-top: 15px !important;
     ul {
       li {
         float: left;
@@ -363,6 +363,13 @@
           .cont {
             font-size: 14px;
             margin-top: 8px;
+            span {
+              background-color: #0096c6;
+              padding: 2px 5px 2px 5px;
+              color: #ffffff;
+              border-radius: 5px;
+              font-size: 10px;
+            }
           }
         }
         .btn {

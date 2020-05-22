@@ -37,7 +37,7 @@
 }
 
 .community__inner .filter {
-  margin-top: 15px;
+  margin-top: 15px !important;
 }
 
 .community__inner .filter ul li {
@@ -405,6 +405,14 @@
 .community-detailview__commnet article .article-sub .article-sub__wrap .desc .cont {
   font-size: 14px;
   margin-top: 8px;
+}
+
+.community-detailview__commnet article .article-sub .article-sub__wrap .desc .cont span {
+  background-color: #0096c6;
+  padding: 2px 5px 2px 5px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 10px;
 }
 
 .community-detailview__commnet article .article-sub .article-sub__wrap .btn {
