@@ -49,6 +49,7 @@ $(".background-black-cover").click(function () {
   });
   $(".pop-up__commnet-write").hide();
   $(".pop-up__commnet-view").hide();
+  $("body").css("overflow", "visible");
 });
 
 /*--------이슈태그 디테일뷰--------*/
@@ -69,11 +70,13 @@ $(".pop-up__commnet-write .cancel").click(function () {
 $(".commnet-add-btn").click(function () {
   $(".pop-up__commnet-view").show();
   $(".background-black-cover").show();
+  $("body").css("overflow", "hidden");
 });
 
 $(".pop-up__commnet-view .pop-up__header button").click(function () {
   $(".pop-up__commnet-view").hide();
   $(".background-black-cover").hide();
+  $("body").css("overflow", "visible");
 });
 
 $(".commnet-article").scrollTop($(".commnet-article")[0].scrollHeight);

@@ -680,33 +680,29 @@
   /*-- 댓글보기 팝업--*/
   .pop-up__commnet-view {
     width: 100%;
-    height: 100vh;
-    position: fixed;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    -webkit-transform: none;
+            transform: none;
+    top: 0;
+    left: 0;
   }
   .pop-up__commnet-view .inner {
     width: 100%;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-  }
-  .pop-up__commnet-view .inner .cont .opinion {
-    height: 100%;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
   }
   .pop-up__commnet-view .inner .cont .commnet {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    overflow: scroll !important;
+    height: 100vh;
   }
   .pop-up__commnet-view .inner .cont .commnet-write .inner textarea {
     width: 80vw;
   }
   .pop-up__commnet-view .inner .cont .commnet-write .inner button {
     width: 60px;
+  }
+  .commnet-article:nth-of-type(1) {
+    margin-top: 0px;
+  }
+  .commnet-article:nth-last-child(1) {
+    margin-bottom: 35px;
   }
 }
 /*# sourceMappingURL=media_mobile.css.map */

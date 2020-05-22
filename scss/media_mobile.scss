@@ -886,22 +886,21 @@
 
   /*-- 댓글보기 팝업--*/
   .pop-up__commnet-view {
+    // display: block;
     width: 100%;
-    height: 100vh; // overflow: hidden;
-    position: fixed;
-    flex-shrink: 1;
+    // height: 100; // overflow: hidden;
+    transform: none;
+    top: 0;
+    left: 0;
     .inner {
       width: 100%;
-      flex-grow: 1;
       .cont {
-        // position: fixed;
         .opinion {
-          height: 100%;
-          flex-grow: 1;
+          // height: 100vh !important;
         }
         .commnet {
-          // height: 500px;
-          flex-grow: 1;
+          overflow: scroll !important;
+          height: 100vh;
         }
 
         .commnet-write {
@@ -922,5 +921,13 @@
         }
       }
     }
+  }
+
+  .commnet-article:nth-of-type(1) {
+    margin-top: 0px;
+  }
+
+  .commnet-article:nth-last-child(1) {
+    margin-bottom: 35px;
   }
 }
