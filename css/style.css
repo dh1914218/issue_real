@@ -27,6 +27,11 @@
   position: sticky;
 }
 
+.btn-active__purple {
+  background-color: #6332f6;
+  color: #ffffff;
+}
+
 /*------레이아웃-----*/
 body {
   position: relative;

@@ -123,7 +123,7 @@ article.trand-issue__article:nth-last-of-type(1) {
 .banner-issue-tag {
   margin-bottom: 50px;
   height: 900px;
-  background: url(../img/banner-index.jpg) no-repeat center;
+  background: no-repeat center;
   background-size: cover;
   background-position: center;
   position: relative;
