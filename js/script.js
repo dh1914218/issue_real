@@ -81,4 +81,4 @@ $(".pop-up__commnet-view .pop-up__header button").click(function () {
   $("body").css("overflow", "visible");
 });
 
-$(".commnet-article").scrollTop($(".commnet-article")[0].scrollHeight);
+// $(".commnet-article").scrollTop($(".commnet-article")[0].scrollHeight);
