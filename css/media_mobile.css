@@ -556,6 +556,12 @@
   .community-write__inner .btn button {
     width: 40% !important;
   }
+  /*------------커뮤니티 검색결과--------------*/
+  .community_search-result__tit {
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
   /*----------트랜드이슈 디테일뷰------------*/
   .banner-issue-tag {
     height: 400px;

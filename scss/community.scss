@@ -211,6 +211,21 @@
 .community-detailview__cont {
   .inner {
     padding: 30px;
+    text-align: right;
+    .write-control {
+      margin-bottom: 30px;
+      button {
+        text-align: center;
+        width: 50px;
+        background-color: #e8e8ed;
+        height: 36px;
+        font-size: 14px;
+      }
+      button.modify {
+        margin-right: 10px;
+      }
+    }
+
     p {
       margin-bottom: 20px;
       img {
@@ -450,5 +465,18 @@
       border: 1px solid $purple;
       color: $purple;
     }
+  }
+}
+
+/*------------커뮤니티 검색결과--------------*/
+.community_search-result__tit {
+  margin-top: 50px;
+  font-size: 25px;
+}
+.community_search-result__select {
+  margin-top: 20px;
+  select {
+    width: 150px;
+    margin-right: 10px;
   }
 }

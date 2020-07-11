@@ -220,6 +220,23 @@
 
 .community-detailview__cont .inner {
   padding: 30px;
+  text-align: right;
+}
+
+.community-detailview__cont .inner .write-control {
+  margin-bottom: 30px;
+}
+
+.community-detailview__cont .inner .write-control button {
+  text-align: center;
+  width: 50px;
+  background-color: #e8e8ed;
+  height: 36px;
+  font-size: 14px;
+}
+
+.community-detailview__cont .inner .write-control button.modify {
+  margin-right: 10px;
 }
 
 .community-detailview__cont .inner p {
@@ -497,5 +514,20 @@
 .community-write__inner .btn button.okay {
   border: 1px solid #6332f6;
   color: #6332f6;
+}
+
+/*------------커뮤니티 검색결과--------------*/
+.community_search-result__tit {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.community_search-result__select {
+  margin-top: 20px;
+}
+
+.community_search-result__select select {
+  width: 150px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=community.css.map */

@@ -118,6 +118,24 @@ body {
   margin-top: 30px;
 }
 
+.search-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  input {
+    color: #9b9b9b;
+    border: none;
+    border-bottom: 1px solid $purple !important;
+  }
+  button {
+    margin-left: 5px;
+    img {
+      vertical-align: middle;
+      width: 18px;
+    }
+  }
+}
+
 /*-----------none--------------*/
 .m-nav {
   display: none;
